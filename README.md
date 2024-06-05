@@ -1,4 +1,4 @@
-# Website
+# vaultexplorer.com
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
@@ -17,7 +17,7 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```
-bun build
+bun run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
