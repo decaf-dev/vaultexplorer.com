@@ -34,11 +34,12 @@ const config: Config = {
       'classic',
       {
         docs: {
+          path: 'pages',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/decaf-dev/vaultexplorer.com/tree/main/docs/',
+            'https://github.com/decaf-dev/vaultexplorer.com/tree/main/pages/',
         },
         blog: {
           showReadingTime: true,
