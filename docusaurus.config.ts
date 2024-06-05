@@ -73,8 +73,8 @@ const config: Config = {
         { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/decaf-dev/obsidian-vault-explorer',
-          label: 'GitHub',
           position: 'right',
+          className: "fa-brands fa-github fa-xl",
         },
       ],
     },
