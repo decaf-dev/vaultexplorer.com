@@ -7,10 +7,9 @@ title: Quickstart
 ## Install the plugin
 
 1. Open [Vault Explorer](https://obsidian.md/plugins?id=vault-explorer)
-2. Select **Install**
-3. Select **Open in Obsidian**
-4. Now in Obsidian, select **Install**
-5. Finally, select **Enable**
+2. Select **Open in Obsidian**
+3. Now in Obsidian, select **Install**
+4. Finally, select **Enable**
 
 ## Open the explorer view
 
