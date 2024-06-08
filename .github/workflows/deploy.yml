@@ -1,7 +1,10 @@
 name: Build and Deploy
 on:
     push:
-        branches: [ "master" ]
+        branches:
+          - master
+        paths-ignore:
+          - 'README.md'
 jobs:
     build:
         runs-on: ubuntu-latest
