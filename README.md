@@ -21,3 +21,10 @@ bun run build
 ```
 
 This command generates static content into the `public` directory and can be served using any static contents hosting service.
+
+## Site map
+
+A site map can be generated from:
+https://www.xml-sitemaps.com/
+
+An initial sitemap was already submitted to the Google console and Google will look at `robots.txt` for fetching the newest sitemap from now on.
