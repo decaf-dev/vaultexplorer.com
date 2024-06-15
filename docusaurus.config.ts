@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Vault Explorer',
   tagline: 'Explore your vault in visual format',
-  favicon: 'img/logo.png',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://vaultexplorer.com',
@@ -59,11 +59,12 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Vault Explorer',
-      // logo: {
-      //   alt: 'My Site Logo',
-      //   src: 'img/logo.svg',
-      // },
+      // title: 'Vault Explorer',
+      logo: {
+        alt: 'Vault Explorer logo',
+        src: 'img/logo-light.svg',
+        srcDark: 'img/logo-dark.svg',
+      },
       items: [
         {
           type: 'docSidebar',
