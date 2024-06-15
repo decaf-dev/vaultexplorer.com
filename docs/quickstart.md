@@ -77,5 +77,5 @@ You may only have one filter group enabled at a time
 Congratulations! You have just learned the basics of using the Vault Explorer plugin.
 
 ## What's next?
-- Learn more about [custom filter rules](/docs/custom-filter#filter-rules)
+- Learn more about [custom filter rules](/docs/filters/custom-filter#filter-rules)
 - Learn about [Premium features](/docs/premium)
