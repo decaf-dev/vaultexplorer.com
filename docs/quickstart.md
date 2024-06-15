@@ -19,7 +19,7 @@ Open the vault explorer view by clicking on the compass icon in the left-hand si
 
 ## Switch between views
 
-Views are different visual formats for displaying your vault files. When you first open the explorer view, the `Grid` view will be active.
+Views are different visual formats for displaying your vault files. When you first open the explorer view, the `Grid` view is active.
 
 To switch to another view, click one of the view tabs.
 
@@ -27,7 +27,9 @@ To reorder the tabs, drag one tab and drop it onto another tab.
 
 ## Filter by favorites
 
-Filters allow you to control what is displayed in a view. One of the basic filters is the `Favorite filter`. The favorite filter allows you to only display notes that contain a favorite property with a value of `true`. You must set a property for the favorite filter to work.
+Filters allow you to control what is displayed in a view.
+
+One of the basic filters is the `Favorite filter`. The favorite filter allows you to only display notes that contain a favorite property with a value of `true`. You must set a property for the favorite filter to work.
 
 1. Open the plugin settings by clicking the gear icon in the upper right hand corner
 2. In the `Built-in Properties` section, you will see `Favorite property` setting.
@@ -50,14 +52,15 @@ Let's started by creating a filter group.
 1. Click the 3 vertical dots button.
 2. Click the plus button to the left of the divider
 
-Great. Now that you have a filter group, we will add a filter rule.
+Now that you have a filter group, let's add a filter rule.
 
 1. Click the plus icon to the right of the divider
 2. Next, click the `text` dropdown and select `list`
 3. Then, click the `Select a property` and choose `tags`
-4. Finally, click the `contains` and select `exists
+4. Finally, click the `contains` and select `exists`
 
-Now let's see our filter group in action
+Now let's enable our filter group
+
 1. Click outside of the model to go back to the explorer view
 2. Click the filter group to enable it
 
@@ -66,7 +69,6 @@ With the filter group enabled, you will only see notes that match the filter rul
 ::note
 You may only have one filter group enabled at a time
 ::
-
 
 ## Congratulations
 
