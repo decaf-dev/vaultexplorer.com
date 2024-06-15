@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Quickstart
 ---
 
-Welcome to the Vault Explorer documentation. We will cover a few basics to help you get started with the plugin.
+<span className="large-text">Welcome to the Vault Explorer documentation. We will cover a few basics to help you get started with the plugin.</span>
 
 ## Install the plugin
 
