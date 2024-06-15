@@ -13,13 +13,13 @@ Welcome to the Vault Explorer documentation. We will cover a few basics to help 
 3. In Obsidian, click **Install**
 4. Finally, click **Enable**
 
-## Open the vault explorer view
+## Open the explorer view
 
-Open the vault explorer view by clicking on the compass icon in the left-hand sidebar. You may also run `Open vault explorer view` from the [command palette](https://help.obsidian.md/Plugins/Command+palette).
+Open the explorer view by clicking on the compass icon in the left-hand sidebar. You may also run `Open vault explorer view` from the [command palette](https://help.obsidian.md/Plugins/Command+palette).
 
 ## Change views
 
-Views are different visual formats for displaying your vault files. When you first open the explorer view, the `Grid view` is active.
+Views are different visual formats for displaying your vault files. When you first open the explorer view, the [Grid view](/docs/views/grid) is active.
 
 To change to another view, click one of the view tabs.
 
@@ -29,7 +29,7 @@ To reorder the tabs, drag one tab and drop it onto another tab.
 
 Filters allow you to control what is displayed in a view.
 
-One of the basic filters is the `Favorite filter`. The favorite filter allows you to only display notes that contain a favorite property with a value of `true`.
+One of the basic filters is the [Favorite filter](/docs/filters/favorite-filter). The favorite filter allows you to only display notes that contain a favorite property with a value of `true`.
 
 You must set a property before using the favorite filter
 
@@ -77,5 +77,5 @@ You may only have one filter group enabled at a time
 Congratulations! You have just learned the basics of using the Vault Explorer plugin.
 
 ## What's next?
-- Learn more about [custom filter rules](./filters/custom-filter#filter-rules)
-- Checkout [Premium](./premium)
+- Learn more about [custom filter rules](/docs/custom-filter#filter-rules)
+- Checkout [Premium](/docs/premium)
