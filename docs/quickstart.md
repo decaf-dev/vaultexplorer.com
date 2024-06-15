@@ -6,12 +6,8 @@ title: Quickstart
 
 <span className="large-text">Welcome to the Vault Explorer documentation. We will cover a few basics to help you get started with the plugin.</span>
 
-## Install the plugin
-
-1. Navigate to the [plugin link](https://obsidian.md/plugins?id=vault-explorer)
-2. When the popup appears, click **Open Obsidian**
-3. In Obsidian, click **Install**
-4. Finally, click **Enable**
+## Installation
+If you haven't done so already, install the [Vault Explorer plugin](https://obsidian.md/plugins?id=vault-explorer) from the community plugins store.
 
 ## Open the explorer view
 
