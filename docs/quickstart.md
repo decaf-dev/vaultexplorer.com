@@ -9,10 +9,9 @@ Welcome the Vault Explorer documentation. We will cover a few basics to help you
 ## Install the plugin
 
 1. Navigate to the [Vault Explorer plugin link](https://obsidian.md/plugins?id=vault-explorer)
-2. When the `Open` popup appears, click **Open Obsidian**
-3. Wait for Obsidian to start
-4. In Obsidian, click **Install**
-5. Finally, click **Enable**
+2. When the popup appears, click **Open Obsidian**
+3. In Obsidian, click **Install**
+4. Finally, click **Enable**
 
 ## Open the vault explorer view
 
@@ -24,7 +23,7 @@ Views are different visual formats for displaying your vault files. When you fir
 
 To switch to another view, click one of the view tabs.
 
-To reorder the tabs, drag one tab and drop it onto another tab. The new order is automatically saved.
+To reorder the tabs, drag one tab and drop it onto another tab.
 
 ## Filter by favorites
 
@@ -32,14 +31,15 @@ Filters allow you to control what is displayed in a view. One of the basic filte
 
 1. Open the plugin settings by clicking the gear icon in the upper right hand corner
 2. In the `Built-in Properties` section, you will see `Favorite property` setting.
-3 Click the dropdown and select a property.
+3. Click the dropdown and select a property.
 
 If no properties are listed, please add a [checkbox property](https://help.obsidian.md/Editing+and+formatting/Properties) to one of your notes. This property will then appear in the dropdown list.
 
 Now go to back to the explorer view, and click the favorites checkbox. The view will now only display notes that have the favorite property.
 
->[!NOTE]
->The favorite filter is applied on top of other filters such as the timestamp filter or the custom filter.
+::note
+The favorite filter is applied on top of other filters such as the timestamp filter or the custom filter.
+::
 
 ## Create a custom filter rule
 
@@ -63,8 +63,9 @@ Now let's see our filter group in action
 
 With the filter group enabled, you will only see notes that match the filter rules in the filter group.
 
-> [!NOTE]
-> You may only have one filter group enabled at a time
+::note
+You may only have one filter group enabled at a time
+::
 
 
 ## Congratulations
