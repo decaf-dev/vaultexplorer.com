@@ -66,7 +66,7 @@ Finally, let's enable our filter group
 1. Click outside of the modal to go back to the explorer view
 2. Click the filter group to enable it
 
-When a filter group is enabled, you will only see notes that match the rules in that group.
+With the filter group enabled, you will only see notes that have a `tags` property in their frontmatter.
 
 :::info
 You may only have one filter group enabled at a time
