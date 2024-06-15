@@ -29,7 +29,7 @@ To reorder the tabs, drag one tab and drop it onto another tab.
 
 Filters allow you to control what is displayed in a view.
 
-One of the basic filters is the [Favorite filter](/docs/filters/favorite-filter). The favorite filter allows you to only display notes that contain a favorite property with a value of `true`.
+One of the basic filters is the [favorite filter](/docs/filters/favorite-filter). The favorite filter allows you to only display notes that contain a favorite property with a value of `true`.
 
 You must set a property before using the favorite filter
 
@@ -41,7 +41,7 @@ If no properties are listed, please add a [checkbox property](https://help.obsid
 
 Now go to back to the explorer view, and click the favorites checkbox. The view will now only display notes that have the favorite property.
 
-:::note
+:::info
 The favorite filter is applied on top of other filters such as the timestamp filter or the custom filter.
 :::
 
@@ -68,7 +68,7 @@ Finally, let's enable our filter group
 
 When a filter group is enabled, you will only see notes that match the rules in that group.
 
-:::note
+:::info
 You may only have one filter group enabled at a time
 :::
 
@@ -78,4 +78,4 @@ Congratulations! You have just learned the basics of using the Vault Explorer pl
 
 ## What's next?
 - Learn more about [custom filter rules](/docs/filters/custom-filter#filter-rules)
-- Learn about [Premium features](/docs/premium)
+- Learn about [Premium](/docs/premium)
