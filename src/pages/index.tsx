@@ -29,11 +29,11 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+  // const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Home - ${siteConfig.title}`}
-      description="Explore your Obsidian vault in visual format. Leverage custom views. Filter based on frontmatter.">
+      title="Home"
+      description="Obsidian.md plugin that allows you to explore your vault in visual format.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
