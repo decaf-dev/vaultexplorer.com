@@ -78,4 +78,4 @@ Congratulations! You have just learned the basics of using the Vault Explorer pl
 
 ## What's next?
 - Learn more about [custom filter rules](/docs/custom-filter#filter-rules)
-- Checkout [Premium](/docs/premium)
+- Learn about [Premium features](/docs/premium)
