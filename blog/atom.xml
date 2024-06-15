@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vaultexplorer.com/blog"/>
     <subtitle>Vault Explorer Blog</subtitle>
-    <icon>https://vaultexplorer.com/img/favicon.ico</icon>
+    <icon>https://vaultexplorer.com/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://vaultexplorer.com/blog/welcome</id>
