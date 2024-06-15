@@ -4,11 +4,11 @@ sidebar_position: 1
 title: Quickstart
 ---
 
-Welcome the Vault Explorer documentation. We will cover a few basics to help you get started with the plugin.
+Welcome to the Vault Explorer documentation. We will cover a few basics to help you get started with the plugin.
 
 ## Install the plugin
 
-1. Navigate to the [Vault Explorer plugin link](https://obsidian.md/plugins?id=vault-explorer)
+1. Navigate to the [plugin link](https://obsidian.md/plugins?id=vault-explorer)
 2. When the popup appears, click **Open Obsidian**
 3. In Obsidian, click **Install**
 4. Finally, click **Enable**
@@ -29,18 +29,22 @@ To reorder the tabs, drag one tab and drop it onto another tab.
 
 Filters allow you to control what is displayed in a view.
 
-One of the basic filters is the `Favorite filter`. The favorite filter allows you to only display notes that contain a favorite property with a value of `true`. You must set a property for the favorite filter to work.
+One of the basic filters is the `Favorite filter`. The favorite filter allows you to only display notes that contain a favorite property with a value of `true`.
+
+You must set a property for the favorite filter to work.
 
 1. Open the plugin settings by clicking the gear icon in the upper right hand corner
-2. In the `Built-in Properties` section, you will see `Favorite property` setting.
-3. Click the dropdown and select a property.
+2. Under the `Built-in Properties` section, you will see `Favorite property` setting
+3. Click the dropdown and select a property
 
 If no properties are listed, please add a [checkbox property](https://help.obsidian.md/Editing+and+formatting/Properties) to one of your notes. This property will then appear in the dropdown list.
 
 Now go to back to the explorer view, and click the favorites checkbox. The view will now only display notes that have the favorite property.
 
 ::note
+
 The favorite filter is applied on top of other filters such as the timestamp filter or the custom filter.
+
 ::
 
 ## Create a custom filter group
@@ -49,7 +53,7 @@ The custom filter gives you granular control over what should displayed in a vie
 
 Let's start by creating a filter group.
 
-1. Click the 3 vertical dots button.
+1. Click the 3 vertical dots button
 2. Click the plus button to the left of the divider
 
 Now that you have a filter group, let's add a filter rule.
@@ -67,7 +71,9 @@ Now let's enable our filter group
 With the filter group enabled, you will only see notes that match the filter rules in the filter group.
 
 ::note
+
 You may only have one filter group enabled at a time
+
 ::
 
 ## Congratulations
