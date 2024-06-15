@@ -19,7 +19,7 @@ Open the vault explorer view by clicking on the compass icon in the left-hand si
 
 ## Change views
 
-Views are different visual formats for displaying your vault files. When you first open the explorer view, the `Grid` view is active.
+Views are different visual formats for displaying your vault files. When you first open the explorer view, the `Grid view` is active.
 
 To change to another view, click one of the view tabs.
 
@@ -31,10 +31,10 @@ Filters allow you to control what is displayed in a view.
 
 One of the basic filters is the `Favorite filter`. The favorite filter allows you to only display notes that contain a favorite property with a value of `true`.
 
-You must set a property for the favorite filter to work.
+You must set a property before using the favorite filter
 
 1. Open the plugin settings by clicking the gear icon in the upper right hand corner
-2. Under the `Built-in Properties` section, you will see `Favorite property` setting
+2. Under the `Built-in Properties` section, find the `Favorite property` setting
 3. Click the dropdown and select a property
 
 If no properties are listed, please add a [checkbox property](https://help.obsidian.md/Editing+and+formatting/Properties) to one of your notes. This property will then appear in the dropdown list.
@@ -51,22 +51,22 @@ The custom filter gives you granular control over what should displayed in a vie
 
 Let's start by creating a filter group.
 
-1. Click the 3 vertical dots button
-2. Click the plus button to the left of the divider
+1. Click the custom filter button. It has 3 vertical dots
+2. Click the create filter group button. It has a plus icon
 
 Now that you have a filter group, let's add a filter rule.
 
-1. Click the plus icon to the right of the divider
-2. Next, click the `text` dropdown and select `list`
-3. Then, click the `Select a property` and choose `tags`
-4. Finally, click the `contains` and select `exists`
+1. Click the add filter rule button. It has a plus icon
+2. Next, click the property type dropdown. Change it from `text` to `list`
+3. Then, click the property dropdown. Change it from `Select a property` to `tags`
+4. Then, click the condition dropdown and change it from `contains` to `exists`
 
 Finally, let's enable our filter group
 
 1. Click outside of the modal to go back to the explorer view
 2. Click the filter group to enable it
 
-With the filter group enabled, you will only see notes that match the filter rules in the filter group.
+When a filter group is enabled, you will only see notes that match the rules in that group.
 
 :::note
 You may only have one filter group enabled at a time
