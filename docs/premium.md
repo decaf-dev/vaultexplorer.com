@@ -20,7 +20,7 @@ You can use a license in up to 5 plugin instances. Once a license has reached it
 ## Register your license
 
 1. Open **Settings**
-2. Select **Vault Explorer**
-3.  Under the **License** section, enter your license
-4. Select the checkmark button
+2. Click **Vault Explorer**
+3. Under the **License** section, enter your license
+4. Click the checkmark button
 5. Congratulations. Your license is now registered to that plugin instance.
