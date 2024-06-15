@@ -17,11 +17,11 @@ Welcome the Vault Explorer documentation. We will cover a few basics to help you
 
 Open the vault explorer view by clicking on the compass icon in the left-hand sidebar. You may also run `Open vault explorer view` from the [command palette](https://help.obsidian.md/Plugins/Command+palette).
 
-## Switch between views
+## Change views
 
 Views are different visual formats for displaying your vault files. When you first open the explorer view, the `Grid` view is active.
 
-To switch to another view, click one of the view tabs.
+To change to another view, click one of the view tabs.
 
 To reorder the tabs, drag one tab and drop it onto another tab.
 
@@ -43,11 +43,11 @@ Now go to back to the explorer view, and click the favorites checkbox. The view 
 The favorite filter is applied on top of other filters such as the timestamp filter or the custom filter.
 ::
 
-## Create a custom filter rule
+## Create a custom filter group
 
 The custom filter gives you granular control over what should displayed in a view. The custom filter is organized into filter groups and filter rules. A filter group can have many filter rules.
 
-Let's started by creating a filter group.
+Let's start by creating a filter group.
 
 1. Click the 3 vertical dots button.
 2. Click the plus button to the left of the divider
