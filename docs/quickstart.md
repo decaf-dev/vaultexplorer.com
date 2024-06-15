@@ -41,11 +41,9 @@ If no properties are listed, please add a [checkbox property](https://help.obsid
 
 Now go to back to the explorer view, and click the favorites checkbox. The view will now only display notes that have the favorite property.
 
-::note
-
+:::note
 The favorite filter is applied on top of other filters such as the timestamp filter or the custom filter.
-
-::
+:::
 
 ## Create a custom filter group
 
@@ -63,18 +61,16 @@ Now that you have a filter group, let's add a filter rule.
 3. Then, click the `Select a property` and choose `tags`
 4. Finally, click the `contains` and select `exists`
 
-Now let's enable our filter group
+Finally, let's enable our filter group
 
-1. Click outside of the model to go back to the explorer view
+1. Click outside of the modal to go back to the explorer view
 2. Click the filter group to enable it
 
 With the filter group enabled, you will only see notes that match the filter rules in the filter group.
 
-::note
-
+:::note
 You may only have one filter group enabled at a time
-
-::
+:::
 
 ## Congratulations
 
