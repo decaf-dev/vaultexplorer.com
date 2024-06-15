@@ -1,8 +1,0 @@
-{
-  "label": "View options",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "View options modify how files are displayed by views"
-  }
-}
