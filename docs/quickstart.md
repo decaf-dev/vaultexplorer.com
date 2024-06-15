@@ -15,7 +15,9 @@ title: Quickstart
 
 ## Open the explorer view
 
-Open the explorer view by clicking on the compass icon in the left-hand sidebar. You may also run `Open vault explorer view` from the [command palette](https://help.obsidian.md/Plugins/Command+palette).
+Open the explorer view by clicking on the compass icon in the left-hand sidebar.
+
+You may also run `Open vault explorer view` from the [command palette](https://help.obsidian.md/Plugins/Command+palette).
 
 ## Change views
 
