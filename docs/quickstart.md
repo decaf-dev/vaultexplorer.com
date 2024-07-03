@@ -141,10 +141,6 @@ Now let's add a few more filter groups.
 
 Now click on a group to enable it. Any other active group will be disabled.
 
-:::info
-By default, only one filter group can be enabled at a time
-:::
-
 <br/>
 
 <Video name="filter-groups-switch.mov"/>
