@@ -7,11 +7,11 @@ title: Quickstart
 <span className="large-text">Welcome to the Vault Explorer documentation. This tutorial will cover a few basics to help you get started with the plugin.</span>
 
 ## Installation
-If you haven't done so already, install the [Vault Explorer plugin](https://obsidian.md/plugins?id=vault-explorer) from the community plugin store.
+If you haven't done so already, install the [Vault Explorer plugin](https://obsidian.md/plugins?id=vault-explorer) from the Obsidian.md community plugin store.
 
 ## Open the explorer view
 
-Open the explorer view by clicking on the compass icon in the left-hand sidebar.
+Open the explorer view by clicking on the compass button in the left sidebar.
 
 You may also run **Open vault explorer view** from the [command palette](https://help.obsidian.md/Plugins/Command+palette).
 
@@ -35,6 +35,8 @@ To change to another view, click one of the view tabs.
 <br/>
 <br/>
 
+## Reorder view tabs
+
 To reorder the view tabs, drag one tab and drop it onto another tab.
 
 <video src="https://vaultexplorer.b-cdn.net/view-tabs-reorder.mov" controls style={{ maxWidth: "500px" }}>
@@ -47,11 +49,11 @@ Filters allow you to control what is displayed in a view.
 
 The [favorite filter](/docs/filters/favorite-filter) allows you to only display notes that contain a favorite property with a value of **true**.
 
-Let's configure a property to use with the favorite filter.
+Let's choose a property to use with the favorite filter.
 
 1. Open the plugin settings by clicking the gear icon in the upper right hand corner
 2. Under the **Built-in Properties** section, find the **Favorite property** setting
-3. Click the dropdown and select a property
+3. Change the dropdown from **Select a property** to the property that you want to use
 
 If no properties are listed, please add a [checkbox property](https://help.obsidian.md/Editing+and+formatting/Properties) to one of your notes. This property will then appear in the dropdown list.
 
@@ -62,7 +64,7 @@ If no properties are listed, please add a [checkbox property](https://help.obsid
 <br/>
 <br/>
 
-Now go to back to the explorer view, and click the favorites checkbox. The view will now only display notes that have the favorite property.
+Now go to back to the explorer view, and click the favorites checkbox. The view will only display notes that have the selected favorite property with a value of **true**.
 
 :::info
 The favorite filter is applied on top of other filters such as the timestamp filter or the custom filter.
@@ -77,7 +79,7 @@ The favorite filter is applied on top of other filters such as the timestamp fil
 
 ## Add a custom filter group
 
-The [custom filter](/docs/filters/custom-filter) gives you granular control over what should displayed in a view. The custom filter is organized into filter groups and filter rules. A filter group can have many filter rules.
+The [custom filter](/docs/filters/custom-filter) gives you granular control over what is displayed in a view. The custom filter is organized into filter groups and filter rules. A filter group can have many filter rules.
 
 :::note
 The creation of this note is arbitrary. It is only used to showcase the custom filter feature.
@@ -132,6 +134,66 @@ Click the filter group to enable it. With the filter group enabled, you will onl
 Click the filter group again to disable it.
 
 <video src="https://vaultexplorer.b-cdn.net/custom-filter-2.mov" controls style={{ maxWidth: "500px" }}>
+  Your browser does not support the video tag.
+</video>
+
+## Switch between filter groups
+
+Now let's add a few more filter groups.
+
+1. Click the button with 3 vertical dots (Change custom filter)
+2. Click the button on the left with a plus (Add filter group) a few times
+3. Click outside of the modal
+
+Now click on a group to enable it. Any other active group will be disabled.
+
+:::info
+By default, only one filter group can be enabled at a time
+:::
+
+<br/>
+
+<video src="https://vaultexplorer.b-cdn.net/filter-groups-switch.mov" controls style={{ maxWidth: "100%" }}>
+  Your browser does not support the video tag.
+</video>
+
+
+## Mark a filter group as sticky
+
+A sticky group is a group that remains enabled even when another group becomes enabled.
+
+### Set a sticky group
+1. Hold `ctrl` (Windows/Linux) or `cmd` (Mac)
+2. Click a normal group to set it as a sticky group
+
+<video src="https://vaultexplorer.b-cdn.net/sticky-filter-group-1.mov" controls style={{ maxWidth: "400px" }}>
+  Your browser does not support the video tag.
+</video>
+
+
+### Unset a sticky group
+1. Hold `ctrl` (Windows/Linux) or `cmd` (Mac)
+2. Click a sticky group to unset it as a normal group
+
+<video src="https://vaultexplorer.b-cdn.net/sticky-filter-group-2.mov" controls style={{ maxWidth: "400px" }}>
+  Your browser does not support the video tag.
+</video>
+
+
+## Reorder filter groups
+
+To reorder filter groups, drag one group and drop it onto another group.
+
+<video src="https://vaultexplorer.b-cdn.net/filter-group-reorder-1.mov" controls style={{ maxWidth: "500px" }}>
+  Your browser does not support the video tag.
+</video>
+
+<br/>
+<br/>
+
+You may also reorder filter groups from within the custom filter modal.
+
+<video src="https://vaultexplorer.b-cdn.net/filter-group-reorder-2.mov" controls style={{ maxWidth: "500px" }}>
   Your browser does not support the video tag.
 </video>
 
