@@ -5,6 +5,7 @@ title: Quickstart
 ---
 
 import Video from "@site/src/components/Video";
+import Image from "@site/src/components/Image";
 
 <span className="large-text">Welcome to the Vault Explorer documentation. This tutorial will cover a few basics to help you get started with the plugin.</span>
 
@@ -17,12 +18,12 @@ Open the explorer view by clicking on the compass button in the left sidebar.
 
 You may also run **Open vault explorer view** from the [command palette](https://help.obsidian.md/Plugins/Command+palette).
 
-<img src={require("./img/open-by-button.png").default} style={{ width: "100%", maxWidth: "300px" }} alt="Open by button"/>
+<Image src="img/open-by-button.png" alt="Open by button" maxWidth="300px"/>
 
 <br/>
 <br/>
 
-<img src={require("./img/open-by-command-palette.png").default} style={{ width: "100%", maxWidth: "500px" }} alt="Open by command palette"/>
+<Image src="img/open-by-command-palette.png" alt="Open by command palette" maxWidth="600px"/>
 
 ## Change views
 
@@ -91,12 +92,12 @@ Now add a filter group.
 
 1. Click the button with 3 vertical dots (Change custom filter)
 
-<img src={require("./img/open-custom-filter.png").default} style={{ width: "100%", maxWidth: "400px" }} alt="Open custom filter"/>
+<Image src="img/open-custom-filter.png" alt="Open custom filter" maxWidth="400px"/>
 
 
 2. Click the button on the left with a plus (Add filter group)
 
-<img src={require("./img/add-filter-group.png").default} style={{ width: "100%", maxWidth: "400px" }} alt="Add filter group"/>
+<Image src="img/add-filter-group.png" alt="Add filter group" maxWidth="400px"/>
 
 <br/>
 <br/>
@@ -107,15 +108,15 @@ Let's configure this rule.
 
 1. Click the property type dropdown. Change it from **text** to **list**
 
-<img src={require("./img/property-type.png").default} style={{ width: "100%", maxWidth: "350px" }} alt="Property type dropdown"/>
+<Image src="img/property-type.png" alt="Property type dropdown" maxWidth="350px"/>
 
 2. Then, click the property name dropdown. Change it from **select a property** to **tags**
 
-<img src={require("./img/property-name.png").default} style={{ width: "100%", maxWidth: "350px" }} alt="Property name dropdown"/>
+<Image src="img/property-name.png" alt="Property name dropdown" maxWidth="350px"/>
 
 3. Enter **test** into the input field. You do not need to include a hash mark `#`.
 
-<img src={require("./img/property-value.png").default} style={{ width: "100%", maxWidth: "350px" }} alt="Property value input"/>
+<Image src="img/property-value.png" alt="Property value input" maxWidth="350px"/>
 
 4. Finally, click outside of the modal.
 
