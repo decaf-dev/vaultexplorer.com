@@ -147,18 +147,23 @@ By default, only one filter group can be enabled at a time
 <Video name="filter-groups-switch.mov"/>
 
 
-## Mark a filter group as sticky
+## Set a filter group as sticky
 
 A sticky group is a group that remains enabled even when another group becomes enabled.
 
-### Set a sticky group
+Let's set our filter group as a sticky group.
+
 1. Hold `ctrl` (Windows/Linux) or `cmd` (Mac)
-2. Click a normal group to set it as a sticky group
+2. Click the first group to set it as a sticky group
+
+Now click other groups to see that the sticky group remains enabled.
 
 <Video name="sticky-filter-group-1.mov" maxWidth="400px"/>
 
+## Unset a filter group as filter
 
-### Unset a sticky group
+Now let's unset the filter group as a sticky group.
+
 1. Hold `ctrl` (Windows/Linux) or `cmd` (Mac)
 2. Click a sticky group to unset it as a normal group
 
