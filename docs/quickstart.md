@@ -79,11 +79,11 @@ The favorite filter is applied on top of other filters such as the timestamp fil
 
 The [custom filter](/docs/filters/custom-filter) gives you granular control over what should displayed in a view. The custom filter is organized into filter groups and filter rules. A filter group can have many filter rules.
 
-Start by creating a note. Add a **tags** property with a **test** tag.
-
 :::note
-This is an arbitrary note. It is only used to showcase the custom filter feature.
+The creation of this note is arbitrary. It is only used to showcase the custom filter feature.
 :::
+
+Start by creating a note. Add a **tags** property with a **test** tag.
 
 
 <video src="https://vaultexplorer.b-cdn.net/custom-filter-1.mov" controls style={{ maxWidth: "100%" }}>
@@ -96,11 +96,13 @@ This is an arbitrary note. It is only used to showcase the custom filter feature
 Now add a filter group.
 
 1. Click the button with 3 vertical dots (Change custom filter)
+
+<img src={require("./img/open-custom-filter.png").default} width="400" alt="Open custom filter"/>
+
+
 2. Click the button on the left with a plus (Add filter group)
 
-<video src="https://vaultexplorer.b-cdn.net/custom-filter-2.mov" controls style={{ maxWidth: "100%" }}>
-  Your browser does not support the video tag.
-</video>
+<img src={require("./img/add-filter-group.png").default} width="400" alt="Add filter group"/>
 
 <br/>
 <br/>
@@ -110,22 +112,26 @@ You will see that a filter rule was added when the filter group was added.
 Let's configure this rule.
 
 1. Click the property type dropdown. Change it from **text** to **list**
+
+<img src={require("./img/property-type.png").default} width="350" alt="Property type dropdown"/>
+
 2. Then, click the property name dropdown. Change it from **select a property** to **tags**
-3. Enter **test** into the value input. You do not need to include a hash mark `#`.
+
+<img src={require("./img/property-name.png").default} width="350" alt="Property name dropdown"/>
+
+3. Enter **test** into the input field. You do not need to include a hash mark `#`.
+
+<img src={require("./img/property-value.png").default} width="350" alt="Property value input"/>
+
 4. Finally, click outside of the modal.
 
-<video src="https://vaultexplorer.b-cdn.net/custom-filter-3.mov" controls style={{ maxWidth: "100%" }}>
-  Your browser does not support the video tag.
-</video>
-
-<br/>
 <br/>
 
 Click the filter group to enable it. With the filter group enabled, you will only see notes that have a **tags** property containing a **test** tag.
 
 Click the filter group again to disable it.
 
-<video src="https://vaultexplorer.b-cdn.net/custom-filter-4.mov" controls style={{ maxWidth: "100%" }}>
+<video src="https://vaultexplorer.b-cdn.net/custom-filter-2.mov" controls style={{ maxWidth: "500px" }}>
   Your browser does not support the video tag.
 </video>
 
