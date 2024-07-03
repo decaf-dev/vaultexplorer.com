@@ -15,11 +15,11 @@ Open the explorer view by clicking on the compass icon in the left-hand sidebar.
 
 You may also run **Open vault explorer view** from the [command palette](https://help.obsidian.md/Plugins/Command+palette).
 
-<img src="./img/open-icon.png" width="300">
+<img src="./img/open-icon.png" width="300"/>
 
 <br/>
 
-<img src="./img/open-command-palette.png" width="500">
+<img src="./img/open-command-palette.png" width="500"/>
 
 ## Change views
 
@@ -27,7 +27,7 @@ Views are different visual formats for displaying your vault files. When you fir
 
 To change to another view, click one of the view tabs.
 
-<video src="https://vaultexplorer.b-cdn.net/view-tabs.mov" controls="controls" style="max-width: 100%;">
+<video src="https://vaultexplorer.b-cdn.net/view-tabs.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -35,7 +35,7 @@ To change to another view, click one of the view tabs.
 
 To reorder the view tabs, drag one tab and drop it onto another tab.
 
-<video src="https://vaultexplorer.b-cdn.net/reorder-view-tabs.mov" controls="controls" style="max-width: 300px">
+<video src="https://vaultexplorer.b-cdn.net/reorder-view-tabs.mov" controls style={{ maxWidth: "300px" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -53,7 +53,7 @@ You must set a property before using the favorite filter
 
 If no properties are listed, please add a [checkbox property](https://help.obsidian.md/Editing+and+formatting/Properties) to one of your notes. This property will then appear in the dropdown list.
 
-<video src="https://vaultexplorer.b-cdn.net/favorite-filter-1.mov" controls="controls" style="max-width: 100%;">
+<video src="https://vaultexplorer.b-cdn.net/favorite-filter-1.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -65,7 +65,7 @@ Now go to back to the explorer view, and click the favorites checkbox. The view 
 The favorite filter is applied on top of other filters such as the timestamp filter or the custom filter.
 :::
 
-<video src="https://vaultexplorer.b-cdn.net/favorite-filter-2.mov" controls="controls" style="max-width: 100%;">
+<video src="https://vaultexplorer.b-cdn.net/favorite-filter-2.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -76,7 +76,7 @@ The custom filter gives you granular control over what should displayed in a vie
 
 Let's start by creating a note with a frontmatter block. Add a `tags` property with a `test` tag in it.
 
-<video src="https://vaultexplorer.b-cdn.net/custom-filter-1.mov" controls="controls" style="max-width: 100%;">
+<video src="https://vaultexplorer.b-cdn.net/custom-filter-1.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -85,7 +85,7 @@ Now create a filter group.
 1. Click the button with 3 vertical dots (Change custom filter)
 2. Click the button on the left with a plus (Add filter group)
 
-<video src="https://vaultexplorer.b-cdn.net/custom-filter-2.mov" controls="controls" style="max-width: 100%;">
+<video src="https://vaultexplorer.b-cdn.net/custom-filter-2.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -97,7 +97,7 @@ Next, we will add a filter rule to the filte rgroup.
 4. Add a value of `test` to the text field. You do not need to include a #.
 5. Finally, click outside of the modal.
 
-<video src="https://vaultexplorer.b-cdn.net/custom-filter-3.mov" controls="controls" style="max-width: 100%;">
+<video src="https://vaultexplorer.b-cdn.net/custom-filter-3.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -107,7 +107,7 @@ Click the filter group to enable it. Click it again to disable it.
 
 With the filter group enabled, you will only see notes that have a `tags` property containing a `test` value.
 
-<video src="https://vaultexplorer.b-cdn.net/custom-filter-4.mov" controls="controls" style="max-width: 100%;">
+<video src="https://vaultexplorer.b-cdn.net/custom-filter-4.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
 
