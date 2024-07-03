@@ -173,12 +173,12 @@ Now click other groups to see that the sticky group remains enabled.
 
 <Video name="sticky-filter-group-1.mov" maxWidth="400px"/>
 
-## Unset a filter group as sticky
+## Set a filter group as normal
 
-Now let's unset the filter group as a sticky group.
+Now let's set the sticky filter group as a normal group.
 
 1. Hold `ctrl` (Windows/Linux) or `cmd` (Mac)
-2. Click a sticky group to unset it as a normal group
+2. Click the sticky group to set it as a normal group
 
 <Video name="sticky-filter-group-2.mov" maxWidth="400px"/>
 
