@@ -4,6 +4,8 @@ sidebar_position: 1
 title: Quickstart
 ---
 
+import Video from "@site/src/components/Video";
+
 <span className="large-text">Welcome to the Vault Explorer documentation. This tutorial will cover a few basics to help you get started with the plugin.</span>
 
 ## Installation
@@ -28,9 +30,7 @@ Views are different visual formats for displaying your vault files. When you fir
 
 To change to another view, click one of the view tabs.
 
-<video src="https://vaultexplorer.b-cdn.net/view-tabs.mov" controls style={{ width: "100%", maxWidth: "500px" }}>
-  Your browser does not support the video tag.
-</video>
+<Video name="view-tabs.mov" maxWidth="500px"/>
 
 <br/>
 <br/>
@@ -39,9 +39,7 @@ To change to another view, click one of the view tabs.
 
 To reorder the view tabs, drag one tab and drop it onto another tab.
 
-<video src="https://vaultexplorer.b-cdn.net/view-tabs-reorder.mov" controls style={{ width: "100%", maxWidth: "500px" }}>
-  Your browser does not support the video tag.
-</video>
+<Video name="view-tabs-reorder.mov" maxWidth="500px"/>
 
 ## Filter by favorites
 
@@ -57,9 +55,7 @@ Let's choose a property to use with the favorite filter.
 
 If no properties are listed, please add a [checkbox property](https://help.obsidian.md/Editing+and+formatting/Properties) to one of your notes. This property will then appear in the dropdown list.
 
-<video src="https://vaultexplorer.b-cdn.net/favorite-filter-1.mov" controls style={{ width: "100%", maxWidth: "100%" }}>
-  Your browser does not support the video tag.
-</video>
+<Video name="favorite-filter-1.mov"/>
 
 <br/>
 <br/>
@@ -72,9 +68,7 @@ The favorite filter is applied on top of other filters such as the timestamp fil
 
 <br/>
 
-<video src="https://vaultexplorer.b-cdn.net/favorite-filter-2.mov" controls style={{ width: "100%", maxWidth: "100%" }}>
-  Your browser does not support the video tag.
-</video>
+<Video name="favorite-filter-2.mov"/>
 
 
 ## Add a custom filter group
@@ -88,9 +82,7 @@ The creation of this note is arbitrary. It is only used to showcase the custom f
 Start by creating a note. Add a **tags** property with a **test** tag.
 
 
-<video src="https://vaultexplorer.b-cdn.net/custom-filter-1.mov" controls style={{ width: "100%", maxWidth: "100%" }}>
-  Your browser does not support the video tag.
-</video>
+<Video name="custom-filter-1.mov"/>
 
 <br/>
 <br/>
@@ -133,9 +125,7 @@ Click the filter group to enable it. With the filter group enabled, you will onl
 
 Click the filter group again to disable it.
 
-<video src="https://vaultexplorer.b-cdn.net/custom-filter-2.mov" controls style={{ width: "100%", maxWidth: "500px" }}>
-  Your browser does not support the video tag.
-</video>
+<Video name="custom-filter-2.mov" maxWidth="500px"/>
 
 ## Switch between filter groups
 
@@ -153,9 +143,7 @@ By default, only one filter group can be enabled at a time
 
 <br/>
 
-<video src="https://vaultexplorer.b-cdn.net/filter-groups-switch.mov" controls style={{ width: "100%", maxWidth: "100%" }}>
-  Your browser does not support the video tag.
-</video>
+<Video name="filter-groups-switch.mov"/>
 
 
 ## Mark a filter group as sticky
@@ -166,36 +154,28 @@ A sticky group is a group that remains enabled even when another group becomes e
 1. Hold `ctrl` (Windows/Linux) or `cmd` (Mac)
 2. Click a normal group to set it as a sticky group
 
-<video src="https://vaultexplorer.b-cdn.net/sticky-filter-group-1.mov" controls style={{ width: "100%", maxWidth: "400px" }}>
-  Your browser does not support the video tag.
-</video>
+<Video name="sticky-filter-group-1.mov" maxWidth="400px"/>
 
 
 ### Unset a sticky group
 1. Hold `ctrl` (Windows/Linux) or `cmd` (Mac)
 2. Click a sticky group to unset it as a normal group
 
-<video src="https://vaultexplorer.b-cdn.net/sticky-filter-group-2.mov" controls style={{ width: "100%", maxWidth: "400px" }}>
-  Your browser does not support the video tag.
-</video>
+<Video name="sticky-filter-group-2.mov" maxWidth="400px"/>
 
 
 ## Reorder filter groups
 
 To reorder filter groups, drag one group and drop it onto another group.
 
-<video src="https://vaultexplorer.b-cdn.net/filter-group-reorder-1.mov" controls style={{ width: "100%", maxWidth: "500px" }}>
-  Your browser does not support the video tag.
-</video>
+<Video name="filter-group-reorder-1.mov" maxWidth="500px"/>
 
 <br/>
 <br/>
 
 You may also reorder filter groups from within the custom filter modal.
 
-<video src="https://vaultexplorer.b-cdn.net/filter-group-reorder-2.mov" controls style={{ width: "100%", maxWidth: "500px" }}>
-  Your browser does not support the video tag.
-</video>
+<Video name="filter-group-reorder-2.mov" maxWidth="500px"/>
 
 ## Congratulations
 
