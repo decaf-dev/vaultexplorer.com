@@ -146,6 +146,19 @@ By default, only one filter group can be enabled at a time
 
 <Video name="filter-groups-switch.mov"/>
 
+## Reorder filter groups
+
+To reorder filter groups, drag one group and drop it onto another group.
+
+<Video name="filter-group-reorder-1.mov" maxWidth="500px"/>
+
+<br/>
+<br/>
+
+You may also reorder filter groups from within the custom filter modal.
+
+<Video name="filter-group-reorder-2.mov" maxWidth="500px"/>
+
 
 ## Set a filter group as sticky
 
@@ -160,7 +173,7 @@ Now click other groups to see that the sticky group remains enabled.
 
 <Video name="sticky-filter-group-1.mov" maxWidth="400px"/>
 
-## Unset a filter group as filter
+## Unset a filter group as sticky
 
 Now let's unset the filter group as a sticky group.
 
@@ -168,20 +181,6 @@ Now let's unset the filter group as a sticky group.
 2. Click a sticky group to unset it as a normal group
 
 <Video name="sticky-filter-group-2.mov" maxWidth="400px"/>
-
-
-## Reorder filter groups
-
-To reorder filter groups, drag one group and drop it onto another group.
-
-<Video name="filter-group-reorder-1.mov" maxWidth="500px"/>
-
-<br/>
-<br/>
-
-You may also reorder filter groups from within the custom filter modal.
-
-<Video name="filter-group-reorder-2.mov" maxWidth="500px"/>
 
 ## Congratulations
 
