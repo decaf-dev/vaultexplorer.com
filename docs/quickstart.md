@@ -7,10 +7,13 @@ title: Quickstart
 import Video from "@site/src/components/Video";
 import Image from "@site/src/components/Image";
 
-<span className="large-text">Welcome to the Vault Explorer documentation. This tutorial will cover a few basics to help you get started with the plugin.</span>
+<span className="large-text">Welcome to the Vault Explorer documentation.</span>
+<br/>
+<br/>
+This tutorial will cover a few basics to help you get started with the plugin.
 
 ## Installation
-If you haven't done so already, install the [Vault Explorer plugin](https://obsidian.md/plugins?id=vault-explorer) from the Obsidian.md community plugin store.
+If you haven't done so already, install the [Vault Explorer plugin](https://obsidian.md/plugins?id=vault-explorer) from the Obsidian plugin store.
 
 ## Open the explorer view
 
