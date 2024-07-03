@@ -3,6 +3,6 @@
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Integrate different plugins with Vault Explorer"
+    "description": "Integrate other Obsidian plugins with Vault Explorer"
   }
 }
