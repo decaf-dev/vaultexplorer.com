@@ -15,12 +15,12 @@ Open the explorer view by clicking on the compass button in the left sidebar.
 
 You may also run **Open vault explorer view** from the [command palette](https://help.obsidian.md/Plugins/Command+palette).
 
-<img src={require("./img/open-by-button.png").default} width="300" alt="Open by button"/>
+<img src={require("./img/open-by-button.png").default} style={{ maxWidth: "300px" }} alt="Open by button"/>
 
 <br/>
 <br/>
 
-<img src={require("./img/open-by-command-palette.png").default} width="500" alt="Open by command palette"/>
+<img src={require("./img/open-by-command-palette.png").default} style={{ maxWidth: "500px" }} alt="Open by command palette"/>
 
 ## Change views
 
@@ -99,7 +99,7 @@ Now add a filter group.
 
 1. Click the button with 3 vertical dots (Change custom filter)
 
-<img src={require("./img/open-custom-filter.png").default} width="400" alt="Open custom filter"/>
+<img src={require("./img/open-custom-filter.png").default} style={{ maxWidth: "400px" }} alt="Open custom filter"/>
 
 
 2. Click the button on the left with a plus (Add filter group)
@@ -115,15 +115,15 @@ Let's configure this rule.
 
 1. Click the property type dropdown. Change it from **text** to **list**
 
-<img src={require("./img/property-type.png").default} width="350" alt="Property type dropdown"/>
+<img src={require("./img/property-type.png").default} style={{ maxWidth: "350px" }} alt="Property type dropdown"/>
 
 2. Then, click the property name dropdown. Change it from **select a property** to **tags**
 
-<img src={require("./img/property-name.png").default} width="350" alt="Property name dropdown"/>
+<img src={require("./img/property-name.png").default} style={{ maxWidth: "350px" }} alt="Property name dropdown"/>
 
 3. Enter **test** into the input field. You do not need to include a hash mark `#`.
 
-<img src={require("./img/property-value.png").default} width="350" alt="Property value input"/>
+<img src={require("./img/property-value.png").default} style={{ maxWidth: "350px" }} alt="Property value input"/>
 
 4. Finally, click outside of the modal.
 
