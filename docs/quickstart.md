@@ -15,11 +15,12 @@ Open the explorer view by clicking on the compass icon in the left-hand sidebar.
 
 You may also run **Open vault explorer view** from the [command palette](https://help.obsidian.md/Plugins/Command+palette).
 
-<img src="./img/open-icon.png" width="300"/>
+<img src={require("./img/open-by-button.png").default} width="300" alt="Open by button"/>
 
 <br/>
+<br/>
 
-<img src="./img/open-command-palette.png" width="500"/>
+<img src={require("./img/open-by-command-palette.png").default} width="500" alt="Open by command palette"/>
 
 ## Change views
 
@@ -32,6 +33,7 @@ To change to another view, click one of the view tabs.
 </video>
 
 <br/>
+<br/>
 
 To reorder the view tabs, drag one tab and drop it onto another tab.
 
@@ -43,12 +45,12 @@ To reorder the view tabs, drag one tab and drop it onto another tab.
 
 Filters allow you to control what is displayed in a view.
 
-One of the basic filters is the [favorite filter](/docs/filters/favorite-filter). The favorite filter allows you to only display notes that contain a favorite property with a value of `true`.
+The [favorite](/docs/filters/favorite-filter) filter allows you to only display notes that contain a favorite property with a value of **true**.
 
-You must set a property before using the favorite filter
+Let's choose a property to use with the favorite filter.
 
 1. Open the plugin settings by clicking the gear icon in the upper right hand corner
-2. Under the `Built-in Properties` section, find the `Favorite property` setting
+2. Under the **Built-in Properties** section, find the **Favorite property** setting
 3. Click the dropdown and select a property
 
 If no properties are listed, please add a [checkbox property](https://help.obsidian.md/Editing+and+formatting/Properties) to one of your notes. This property will then appear in the dropdown list.
@@ -58,12 +60,15 @@ If no properties are listed, please add a [checkbox property](https://help.obsid
 </video>
 
 <br/>
+<br/>
 
 Now go to back to the explorer view, and click the favorites checkbox. The view will now only display notes that have the favorite property.
 
 :::info
 The favorite filter is applied on top of other filters such as the timestamp filter or the custom filter.
 :::
+
+<br/>
 
 <video src="https://vaultexplorer.b-cdn.net/favorite-filter-2.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
@@ -72,13 +77,20 @@ The favorite filter is applied on top of other filters such as the timestamp fil
 
 ## Create a custom filter group
 
-The custom filter gives you granular control over what should displayed in a view. The custom filter is organized into filter groups and filter rules. A filter group can have many filter rules.
+The [custom filter](/docs/filters/custom-filter) gives you granular control over what should displayed in a view. The custom filter is organized into filter groups and filter rules. A filter group can have many filter rules.
 
-Let's start by creating a note with a frontmatter block. Add a `tags` property with a `test` tag in it.
+:::note
+In this tutorial, we will create an arbitrary note. This is just to showcase the custom filter functionality.
+:::
+
+Start by creating a note with a frontmatter block. Add a **tags** property with a **test** tag.
 
 <video src="https://vaultexplorer.b-cdn.net/custom-filter-1.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
+
+<br/>
+<br/>
 
 Now create a filter group.
 
@@ -89,23 +101,30 @@ Now create a filter group.
   Your browser does not support the video tag.
 </video>
 
-Next, we will add a filter rule to the filte rgroup.
+<br/>
+<br/>
 
-1. Click the button on the right with a plus icon (Add filter rule).
-2. Click the property type dropdown. Change it from `text` to `list`
-3. Then, click the property name dropdown. Change it from `Select a property` to `tags`
-4. Add a value of `test` to the text field. You do not need to include a #.
-5. Finally, click outside of the modal.
+You will see that a filter rule was added when you created the filter group. We will now configure this rule.
+
+1. Click the property type dropdown. Change it from **text** to **list**
+2. Then, click the property name dropdown. Change it from **select a property** to **tags**
+3. Enter **test** into the value field. You do not need to include a hash mark `#`.
+4. Finally, click outside of the modal.
 
 <video src="https://vaultexplorer.b-cdn.net/custom-filter-3.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
 
+<br/>
+<br/>
+
 Now let's enable our filter group.
 
-Click the filter group to enable it. Click it again to disable it.
+Click the filter group to enable it.
 
-With the filter group enabled, you will only see notes that have a `tags` property containing a `test` value.
+With the filter group enabled, you will only see notes that have a **tags** property containing a **test** tag.
+
+Click it again to disable it.
 
 <video src="https://vaultexplorer.b-cdn.net/custom-filter-4.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
