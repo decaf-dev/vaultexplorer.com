@@ -75,12 +75,12 @@ The favorite filter is applied on top of other filters such as the timestamp fil
 </video>
 
 
-## Create a custom filter group
+## Add a custom filter group
 
 The [custom filter](/docs/filters/custom-filter) gives you granular control over what should displayed in a view. The custom filter is organized into filter groups and filter rules. A filter group can have many filter rules.
 
 :::note
-In this tutorial, we will create an arbitrary note. This is just to showcase the custom filter functionality.
+In this tutorial, we will create an arbitrary note. This is to showcase the custom filter functionality.
 :::
 
 Start by creating a note with a frontmatter block. Add a **tags** property with a **test** tag.
@@ -92,7 +92,7 @@ Start by creating a note with a frontmatter block. Add a **tags** property with 
 <br/>
 <br/>
 
-Now create a filter group.
+Now add a filter group.
 
 1. Click the button with 3 vertical dots (Change custom filter)
 2. Click the button on the left with a plus (Add filter group)
@@ -104,11 +104,13 @@ Now create a filter group.
 <br/>
 <br/>
 
-You will see that a filter rule was added when you created the filter group. We will now configure this rule.
+You will see that a filter rule was added when the filter group was added.
+
+Let's configure this rule.
 
 1. Click the property type dropdown. Change it from **text** to **list**
 2. Then, click the property name dropdown. Change it from **select a property** to **tags**
-3. Enter **test** into the value field. You do not need to include a hash mark `#`.
+3. Enter **test** into the value input. You do not need to include a hash mark `#`.
 4. Finally, click outside of the modal.
 
 <video src="https://vaultexplorer.b-cdn.net/custom-filter-3.mov" controls style={{ maxWidth: "100%" }}>
@@ -118,13 +120,9 @@ You will see that a filter rule was added when you created the filter group. We 
 <br/>
 <br/>
 
-Now let's enable our filter group.
+Click the filter group to enable it. With the filter group enabled, you will only see notes that have a **tags** property containing a **test** tag.
 
-Click the filter group to enable it.
-
-With the filter group enabled, you will only see notes that have a **tags** property containing a **test** tag.
-
-Click it again to disable it.
+Click the filter group again to disable it.
 
 <video src="https://vaultexplorer.b-cdn.net/custom-filter-4.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
