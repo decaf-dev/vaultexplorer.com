@@ -15,12 +15,12 @@ Open the explorer view by clicking on the compass button in the left sidebar.
 
 You may also run **Open vault explorer view** from the [command palette](https://help.obsidian.md/Plugins/Command+palette).
 
-<img src={require("./img/open-by-button.png").default} style={{ maxWidth: "300px" }} alt="Open by button"/>
+<img src={require("./img/open-by-button.png").default} style={{ width: "100%", maxWidth: "300px" }} alt="Open by button"/>
 
 <br/>
 <br/>
 
-<img src={require("./img/open-by-command-palette.png").default} style={{ maxWidth: "500px" }} alt="Open by command palette"/>
+<img src={require("./img/open-by-command-palette.png").default} style={{ width: "100%", maxWidth: "500px" }} alt="Open by command palette"/>
 
 ## Change views
 
@@ -28,7 +28,7 @@ Views are different visual formats for displaying your vault files. When you fir
 
 To change to another view, click one of the view tabs.
 
-<video src="https://vaultexplorer.b-cdn.net/view-tabs.mov" controls style={{ maxWidth: "500px" }}>
+<video src="https://vaultexplorer.b-cdn.net/view-tabs.mov" controls style={{ width: "100%", maxWidth: "500px" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -39,7 +39,7 @@ To change to another view, click one of the view tabs.
 
 To reorder the view tabs, drag one tab and drop it onto another tab.
 
-<video src="https://vaultexplorer.b-cdn.net/view-tabs-reorder.mov" controls style={{ maxWidth: "500px" }}>
+<video src="https://vaultexplorer.b-cdn.net/view-tabs-reorder.mov" controls style={{ width: "100%", maxWidth: "500px" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -57,7 +57,7 @@ Let's choose a property to use with the favorite filter.
 
 If no properties are listed, please add a [checkbox property](https://help.obsidian.md/Editing+and+formatting/Properties) to one of your notes. This property will then appear in the dropdown list.
 
-<video src="https://vaultexplorer.b-cdn.net/favorite-filter-1.mov" controls style={{ maxWidth: "100%" }}>
+<video src="https://vaultexplorer.b-cdn.net/favorite-filter-1.mov" controls style={{ width: "100%", maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -72,7 +72,7 @@ The favorite filter is applied on top of other filters such as the timestamp fil
 
 <br/>
 
-<video src="https://vaultexplorer.b-cdn.net/favorite-filter-2.mov" controls style={{ maxWidth: "100%" }}>
+<video src="https://vaultexplorer.b-cdn.net/favorite-filter-2.mov" controls style={{ width: "100%", maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -88,7 +88,7 @@ The creation of this note is arbitrary. It is only used to showcase the custom f
 Start by creating a note. Add a **tags** property with a **test** tag.
 
 
-<video src="https://vaultexplorer.b-cdn.net/custom-filter-1.mov" controls style={{ maxWidth: "100%" }}>
+<video src="https://vaultexplorer.b-cdn.net/custom-filter-1.mov" controls style={{ width: "100%", maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -99,12 +99,12 @@ Now add a filter group.
 
 1. Click the button with 3 vertical dots (Change custom filter)
 
-<img src={require("./img/open-custom-filter.png").default} style={{ maxWidth: "400px" }} alt="Open custom filter"/>
+<img src={require("./img/open-custom-filter.png").default} style={{ width: "100%", maxWidth: "400px" }} alt="Open custom filter"/>
 
 
 2. Click the button on the left with a plus (Add filter group)
 
-<img src={require("./img/add-filter-group.png").default} width="400" alt="Add filter group"/>
+<img src={require("./img/add-filter-group.png").default} style={{ width: "100%", maxWidth: "400px" }} alt="Add filter group"/>
 
 <br/>
 <br/>
@@ -115,15 +115,15 @@ Let's configure this rule.
 
 1. Click the property type dropdown. Change it from **text** to **list**
 
-<img src={require("./img/property-type.png").default} style={{ maxWidth: "350px" }} alt="Property type dropdown"/>
+<img src={require("./img/property-type.png").default} style={{ width: "100%", maxWidth: "350px" }} alt="Property type dropdown"/>
 
 2. Then, click the property name dropdown. Change it from **select a property** to **tags**
 
-<img src={require("./img/property-name.png").default} style={{ maxWidth: "350px" }} alt="Property name dropdown"/>
+<img src={require("./img/property-name.png").default} style={{ width: "100%", maxWidth: "350px" }} alt="Property name dropdown"/>
 
 3. Enter **test** into the input field. You do not need to include a hash mark `#`.
 
-<img src={require("./img/property-value.png").default} style={{ maxWidth: "350px" }} alt="Property value input"/>
+<img src={require("./img/property-value.png").default} style={{ width: "100%", maxWidth: "350px" }} alt="Property value input"/>
 
 4. Finally, click outside of the modal.
 
@@ -133,7 +133,7 @@ Click the filter group to enable it. With the filter group enabled, you will onl
 
 Click the filter group again to disable it.
 
-<video src="https://vaultexplorer.b-cdn.net/custom-filter-2.mov" controls style={{ maxWidth: "500px" }}>
+<video src="https://vaultexplorer.b-cdn.net/custom-filter-2.mov" controls style={{ width: "100%", maxWidth: "500px" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -153,7 +153,7 @@ By default, only one filter group can be enabled at a time
 
 <br/>
 
-<video src="https://vaultexplorer.b-cdn.net/filter-groups-switch.mov" controls style={{ maxWidth: "100%" }}>
+<video src="https://vaultexplorer.b-cdn.net/filter-groups-switch.mov" controls style={{ width: "100%", maxWidth: "100%" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -166,7 +166,7 @@ A sticky group is a group that remains enabled even when another group becomes e
 1. Hold `ctrl` (Windows/Linux) or `cmd` (Mac)
 2. Click a normal group to set it as a sticky group
 
-<video src="https://vaultexplorer.b-cdn.net/sticky-filter-group-1.mov" controls style={{ maxWidth: "400px" }}>
+<video src="https://vaultexplorer.b-cdn.net/sticky-filter-group-1.mov" controls style={{ width: "100%", maxWidth: "400px" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -175,7 +175,7 @@ A sticky group is a group that remains enabled even when another group becomes e
 1. Hold `ctrl` (Windows/Linux) or `cmd` (Mac)
 2. Click a sticky group to unset it as a normal group
 
-<video src="https://vaultexplorer.b-cdn.net/sticky-filter-group-2.mov" controls style={{ maxWidth: "400px" }}>
+<video src="https://vaultexplorer.b-cdn.net/sticky-filter-group-2.mov" controls style={{ width: "100%", maxWidth: "400px" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -184,7 +184,7 @@ A sticky group is a group that remains enabled even when another group becomes e
 
 To reorder filter groups, drag one group and drop it onto another group.
 
-<video src="https://vaultexplorer.b-cdn.net/filter-group-reorder-1.mov" controls style={{ maxWidth: "500px" }}>
+<video src="https://vaultexplorer.b-cdn.net/filter-group-reorder-1.mov" controls style={{ width: "100%", maxWidth: "500px" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -193,7 +193,7 @@ To reorder filter groups, drag one group and drop it onto another group.
 
 You may also reorder filter groups from within the custom filter modal.
 
-<video src="https://vaultexplorer.b-cdn.net/filter-group-reorder-2.mov" controls style={{ maxWidth: "500px" }}>
+<video src="https://vaultexplorer.b-cdn.net/filter-group-reorder-2.mov" controls style={{ width: "100%", maxWidth: "500px" }}>
   Your browser does not support the video tag.
 </video>
 
