@@ -45,9 +45,9 @@ To reorder the view tabs, drag one tab and drop it onto another tab.
 
 Filters allow you to control what is displayed in a view.
 
-The [favorite](/docs/filters/favorite-filter) filter allows you to only display notes that contain a favorite property with a value of **true**.
+The [favorite filter](/docs/filters/favorite-filter) allows you to only display notes that contain a favorite property with a value of **true**.
 
-Let's choose a property to use with the favorite filter.
+Let's configure a property to use with the favorite filter.
 
 1. Open the plugin settings by clicking the gear icon in the upper right hand corner
 2. Under the **Built-in Properties** section, find the **Favorite property** setting
