@@ -53,9 +53,10 @@ The [favorite filter](/docs/filters/favorite-filter) allows you to only display 
 
 Let's choose a property to use with the favorite filter.
 
-1. Open the plugin settings by clicking the gear icon in the upper right hand corner
-2. Under the **Built-in Properties** section, find the **Favorite property** setting
-3. Change the dropdown from **Select a property** to the property that you want to use
+1. Open the plugin settings by clicking the gear icon in the upper right corner
+2. Scroll down to the **Built-in Properties** section
+3. Find the **Favorite property** setting
+4. Click the dropdown and change the value from **Select a property** to the property that you want to use
 
 If no properties are listed, please add a [checkbox property](https://help.obsidian.md/Editing+and+formatting/Properties) to one of your notes. This property will then appear in the dropdown list.
 
