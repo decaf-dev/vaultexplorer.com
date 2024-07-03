@@ -28,7 +28,7 @@ Views are different visual formats for displaying your vault files. When you fir
 
 To change to another view, click one of the view tabs.
 
-<video src="https://vaultexplorer.b-cdn.net/view-tabs.mov" controls style={{ maxWidth: "100%" }}>
+<video src="https://vaultexplorer.b-cdn.net/view-tabs.mov" controls style={{ maxWidth: "500px" }}>
   Your browser does not support the video tag.
 </video>
 
@@ -37,7 +37,7 @@ To change to another view, click one of the view tabs.
 
 To reorder the view tabs, drag one tab and drop it onto another tab.
 
-<video src="https://vaultexplorer.b-cdn.net/reorder-view-tabs.mov" controls style={{ maxWidth: "300px" }}>
+<video src="https://vaultexplorer.b-cdn.net/view-tabs-reorder.mov" controls style={{ maxWidth: "500px" }}>
   Your browser does not support the video tag.
 </video>
 
