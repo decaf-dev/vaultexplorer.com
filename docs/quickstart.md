@@ -79,11 +79,12 @@ The favorite filter is applied on top of other filters such as the timestamp fil
 
 The [custom filter](/docs/filters/custom-filter) gives you granular control over what should displayed in a view. The custom filter is organized into filter groups and filter rules. A filter group can have many filter rules.
 
+Start by creating a note. Add a **tags** property with a **test** tag.
+
 :::note
-In this tutorial, we will create an arbitrary note. This is to showcase the custom filter functionality.
+This is an arbitrary note. It is only used to showcase the custom filter feature.
 :::
 
-Start by creating a note with a frontmatter block. Add a **tags** property with a **test** tag.
 
 <video src="https://vaultexplorer.b-cdn.net/custom-filter-1.mov" controls style={{ maxWidth: "100%" }}>
   Your browser does not support the video tag.
