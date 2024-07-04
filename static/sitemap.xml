@@ -9,67 +9,102 @@
 
 <url>
   <loc>https://vaultexplorer.com/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://vaultexplorer.com/docs/quickstart/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vaultexplorer.com/docs/category/views/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://vaultexplorer.com/docs/category/filters/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vaultexplorer.com/docs/keyboard-navigation/</loc>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vaultexplorer.com/docs/category/guides/</loc>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vaultexplorer.com/docs/category/integrations/</loc>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://vaultexplorer.com/docs/settings/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://vaultexplorer.com/docs/premium/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://vaultexplorer.com/docs/views/grid/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://vaultexplorer.com/docs/filters/favorite-filter/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://vaultexplorer.com/docs/filters/custom-filter/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vaultexplorer.com/docs/views/feed/</loc>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vaultexplorer.com/docs/guides/filter-by-all-tags/</loc>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://vaultexplorer.com/docs/views/list/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://vaultexplorer.com/docs/views/table/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://vaultexplorer.com/docs/filters/timestamp-filter/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://vaultexplorer.com/docs/filters/sort-order/</loc>
-  <lastmod>2024-06-17T03:54:55+00:00</lastmod>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://vaultexplorer.com/docs/guides/make-a-custom-view-layout/</loc>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://vaultexplorer.com/docs/guides/filter-by-view-count/</loc>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://vaultexplorer.com/docs/integrations/view-count-plugin/</loc>
+  <lastmod>2024-07-04T04:07:29+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
