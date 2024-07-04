@@ -27,4 +27,4 @@ This guide assumes that you have activated [premium features](/docs/premium) for
 
 Now click outside of the modal and enable your filter group.
 
-Congratulations, you are now filtering vault files based on tags found in both the frontmatter or the body of the markdown files.
+Congratulations! You are now filtering vault files based on tags found in both the frontmatter or the body of the markdown files.
