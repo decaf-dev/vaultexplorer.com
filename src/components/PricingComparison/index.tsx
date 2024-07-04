@@ -87,6 +87,7 @@ function Tier({ id, title, description, price, url }: TierItem) {
 			{url !== undefined ? (
 				<a
 					className="button button--primary"
+					data-umami-event={`${title} button`}
 					href={url}
 					target="_blank"
 					rel="noopener"

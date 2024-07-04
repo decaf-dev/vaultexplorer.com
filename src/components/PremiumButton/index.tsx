@@ -7,6 +7,7 @@ export default function PremiumButton(): JSX.Element {
 			href="https://ko-fi.com/decaf_dev/shop"
 			target="_blank"
 			rel="noopener"
+			data-umami-event="Buy a license button"
 		>
 			Buy a license
 		</a>
