@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Settings'
+sidebar_label: "Settings"
 sidebar_position: 6
 title: Settings
 ---
@@ -10,12 +10,12 @@ title: Settings
 
 The number of items to display per page.
 
-- 10
-- 25
-- 50
-- 100
-- 250
-- 500
+-   10
+-   25
+-   50
+-   100
+-   250
+-   500
 
 :::warning
 Increasing the page size will cause longer render times and potential lag
@@ -23,10 +23,10 @@ Increasing the page size will cause longer render times and potential lag
 
 ### Title wrapping
 
-| Name | Description |
-| ---- | ----------- |
-| `Normal` | Don't break words to make the title fit |
-| `Break-word` | Break words to make the text fit.  |
+| Name         | Description                             |
+| ------------ | --------------------------------------- |
+| `Normal`     | Don't break words to make the title fit |
+| `Break-word` | Break words to make the text fit.       |
 
 When **Normal** is selected, text that overflows will be truncated with ellipsis `...`
 
@@ -71,7 +71,6 @@ The property used to store the URL of a file. When this setting has a property s
 :::note
 The setting dropdown only displays **text** properties.
 :::
-
 
 ### Modification date property
 

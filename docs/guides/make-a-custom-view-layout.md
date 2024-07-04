@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Make a custom view layout'
+sidebar_label: "Make a custom view layout"
 sidebar_position: 2
 title: Make a custom view layout
 ---

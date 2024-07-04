@@ -1,13 +1,13 @@
 ---
-sidebar_label: 'Custom filter'
+sidebar_label: "Custom filter"
 sidebar_position: 4
 title: Custom filter
 ---
 
 The custom filter gives you granular control over what is displayed in a view. The custom filter is organized into two categories: `filter groups` and `filter rules`
 
-- **Filter group** - A collection of filter rules
-- **Filter rule** - A requirement that must be met for a vault file to be displayed by a view
+-   **Filter group** - A collection of filter rules
+-   **Filter rule** - A requirement that must be met for a vault file to be displayed by a view
 
 ## Filter groups
 
@@ -50,9 +50,9 @@ TODO
 | Name          | Description                                                  |
 | ------------- | ------------------------------------------------------------ |
 | `property`    | A property found in the frontmatter of a markdown note       |
-| `folder name` | A folder name                                    |
-| `file name`   | A file name                                      |
-| `content`     | The text found in a markdown note, excluding the frontmatter | 
+| `folder name` | A folder name                                                |
+| `file name`   | A file name                                                  |
+| `content`     | The text found in a markdown note, excluding the frontmatter |
 
 ### Property
 
@@ -66,57 +66,57 @@ This rule only applies to markdown files and will not affect any other types of 
 | `property name`                     | A property name                                                                                              |
 | `condition`                         | The property condition                                                                                       |
 | `value`                             | Text to compare                                                                                              |
-| `match when property doesn't exist` | When true, markdown files that don't have the selected property name will be unaffected by this rule               |
+| `match when property doesn't exist` | When true, markdown files that don't have the selected property name will be unaffected by this rule         |
 
 #### Property filter conditions
 
-| Name       |
-| ---------- |
-| `is`       | 
-| `is not`   |
-| `contains` |
+| Name               |
+| ------------------ |
+| `is`               |
+| `is not`           |
+| `contains`         |
 | `does not contain` |
-| `starts with` |
-| `ends with` | 
-| `exists` | 
-| `does not exist` | 
+| `starts with`      |
+| `ends with`        |
+| `exists`           |
+| `does not exist`   |
 
 ### Folder name
 
 #### Folder name filter options
 
-| Name                | Description                                 |
-| ------------------- | ------------------------------------------- |
-| `condition`         | The filter condition |
-| `folder name`       | A dropdown list of folder names             |
-| `include subfolder` | Whether subfolders should be included       |
+| Name                | Description                           |
+| ------------------- | ------------------------------------- |
+| `condition`         | The filter condition                  |
+| `folder name`       | A dropdown list of folder names       |
+| `include subfolder` | Whether subfolders should be included |
 
 #### Folder name filter conditions
 
-| Name       |
-| ---------- |
-| `is`       | 
-| `is not`   |
+| Name     |
+| -------- |
+| `is`     |
+| `is not` |
 
 ### File name
 
 #### File name filter options
 
-| Name                | Description                                 |
-| ------------------- | ------------------------------------------- |
-| `condition`         | The filter condition |
-| `value`             | Text to compare       |
+| Name        | Description          |
+| ----------- | -------------------- |
+| `condition` | The filter condition |
+| `value`     | Text to compare      |
 
 #### File name filter condition
 
-| Name       |
-| ---------- |
-| `is`       | 
-| `is not`   |
-| `contains` |
+| Name               |
+| ------------------ |
+| `is`               |
+| `is not`           |
+| `contains`         |
 | `does not contain` |
-| `starts with` |
-| `ends with` | 
+| `starts with`      |
+| `ends with`        |
 
 ### Content
 
@@ -130,17 +130,16 @@ This is a [premium feature](/docs/premium).
 
 #### Content filter options
 
-| Name | Description |
-| ----------- | -------- |
+| Name        | Description          |
+| ----------- | -------------------- |
 | `condition` | The filter condition |
-| `value` | Text to compare          |
-
+| `value`     | Text to compare      |
 
 #### Content filter condition
 
 | Name               |
 | ------------------ |
-| `contains`         | 
-| `does not contain` | 
+| `contains`         |
+| `does not contain` |
 | `is empty`         |
-| `is not empty`     | 
+| `is not empty`     |

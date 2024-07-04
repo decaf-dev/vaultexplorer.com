@@ -1,8 +1,8 @@
 {
-  "label": "Integrations",
-  "position": 6,
-  "link": {
-    "type": "generated-index",
-    "description": "Integrate other Obsidian.md plugins with Vault Explorer"
-  }
+	"label": "Integrations",
+	"position": 6,
+	"link": {
+		"type": "generated-index",
+		"description": "Integrate other Obsidian.md plugins with Vault Explorer"
+	}
 }

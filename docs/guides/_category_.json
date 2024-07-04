@@ -1,8 +1,8 @@
 {
-  "label": "Guides",
-  "position": 5,
-  "link": {
-    "type": "generated-index",
-    "description": "Guides to help you get started with Vault Explorer."
-  }
+	"label": "Guides",
+	"position": 5,
+	"link": {
+		"type": "generated-index",
+		"description": "Guides to help you get started with Vault Explorer."
+	}
 }

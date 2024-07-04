@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Quickstart'
+sidebar_label: "Quickstart"
 sidebar_position: 1
 title: Quickstart
 ---
@@ -13,6 +13,7 @@ import Image from "@site/src/components/Image";
 This tutorial will cover a few basics to help you get started with the plugin.
 
 ## Installation
+
 If you haven't done so already, install the [Vault Explorer plugin](https://obsidian.md/plugins?id=vault-explorer) from the Obsidian plugin store.
 
 ## Open the explorer view
@@ -75,7 +76,6 @@ The favorite filter is applied on top of other filters such as the timestamp fil
 
 <Video name="favorite-filter-2.mov"/>
 
-
 ## Add a custom filter group
 
 The [custom filter](/docs/filters/custom-filter) gives you granular control over what is displayed in a view. The custom filter is organized into filter groups and filter rules. A filter group can have many filter rules.
@@ -85,7 +85,6 @@ The creation of this note is arbitrary. It is only used to showcase the custom f
 :::
 
 Start by creating a note. Add a **tags** property with a **test** tag.
-
 
 <Video name="custom-filter-1.mov"/>
 
@@ -97,7 +96,6 @@ Now add a filter group.
 1. Click the button with 3 vertical dots (Change custom filter)
 
 <Image src="img/open-custom-filter.png" alt="Open custom filter" maxWidth="400px"/>
-
 
 2. Click the button on the left with a plus (Add filter group)
 
@@ -159,7 +157,6 @@ You may also reorder filter groups from within the custom filter modal.
 
 <Video name="filter-group-reorder-2.mov" maxWidth="500px"/>
 
-
 ## Set a filter group as sticky
 
 A sticky group is a group that remains enabled even when another group becomes enabled.
@@ -187,7 +184,8 @@ Now let's set the sticky filter group as a normal group.
 Congratulations! You have just learned the basics of using the Vault Explorer plugin.
 
 ## What's next?
-- Learn about [custom filter rule types](/docs/filters/custom-filter#filter-rule-types)
-- Check out the [feed view](/docs/views/feed)
-- Learn how to [filter by tags in both frontmatter and content body](/docs/guides/filter-by-all-tags)
-- Learn about [Premium](/docs/premium)
+
+-   Learn about [custom filter rule types](/docs/filters/custom-filter#filter-rule-types)
+-   Check out the [feed view](/docs/views/feed)
+-   Learn how to [filter by tags in both frontmatter and content body](/docs/guides/filter-by-all-tags)
+-   Learn about [Premium](/docs/premium)

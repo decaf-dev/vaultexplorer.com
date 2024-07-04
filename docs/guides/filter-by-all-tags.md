@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Filter by all tags'
+sidebar_label: "Filter by all tags"
 sidebar_position: 1
 title: Filter by all tags
 ---
