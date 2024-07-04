@@ -185,7 +185,6 @@ Congratulations! You have just learned the basics of using the Vault Explorer pl
 
 ## What's next?
 
--   Learn more about [views](/docs/views/)
 -   Learn about [custom filter rule types](/docs/filters/custom-filter#filter-rule-types)
 -   Learn how to [filter by tags in both frontmatter and content](/docs/guides/filter-by-all-tags)
 -   Learn about [Premium](/docs/premium)
