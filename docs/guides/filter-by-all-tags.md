@@ -4,13 +4,13 @@ sidebar_position: 1
 title: Filter by all tags
 ---
 
-This guide will help you to setup filtering for tags that appear either in frontmatter or the body of markdown notes.
+This guide will help you set up filtering for tags that appear either in the frontmatter or the body of your markdown notes.
 
 This guide assumes that you have activated [premium features](/docs/premium) for your vault.
 
 ## Create a property rule
 
-1. Add a new filter group
+1. Add a filter group
 2. Add a filter rule
 3. Click the property type dropdown. Change it from **text** to **list**
 4. Click the property name dropdown. Change it from **select a property** to **tags**
@@ -19,7 +19,7 @@ This guide assumes that you have activated [premium features](/docs/premium) for
 
 ## Create a content rule
 
-1. On the same group, add another filter rule
+1. On the same filter group, add another filter rule
 2. Click the property operator dropdown. Change it from **and** to **or**
 3. Click the rule type dropdown. Change it from **property** to **content**
 4. Click the filter condition dropdown. Change it from **contains** to your condition of choice.
