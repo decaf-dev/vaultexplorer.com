@@ -10,7 +10,7 @@ import PremiumButton from "@site/src/components/PremiumButton";
 
 ## License
 
-A license gives you lifetime access to premium Vault Explorer features. These include new views and quality of life improvements. Purchasing a license is also a way to support the development of the plugin.
+A license gives you lifetime access to premium Vault Explorer features. Purchasing a license is also a way to support the development of the plugin.
 
 When you purchase a license, you will receive an email with your license key within 24 hours. This email is currently sent manually. After receiving your license key, you will need to register your device with it.
 
@@ -33,14 +33,18 @@ The extended license can be up on up to 5 devices.
 
 ## Register your device
 
-1. In Obsidian, open **Settings**
-2. Click **Vault Explorer**
-3. Under the **Premium** section, enter your license key received by email
+1. Open the plugin settings by clicking the gear icon in the upper right corner
+2. Scroll down to the **Premium** section
+3. Find the **License key** setting
+4. Enter your license key received by email
 
-Congratulations. Your device is now registered to that license
+Congratulations! Your device is now registered to that license.
 
 ## Unregister your device
 
-1. In Obsidian, open **Settings**
-2. Click **Vault Explorer**
-3. Under the **Premium section**, click the **Unregister device** button
+1. Open the plugin settings by clicking the gear icon in the upper right corner
+2. Scroll down to the **Premium** section
+3. Find the **License key** setting
+4. Click the **Unregister device** button
+
+When you unregister a device, you may use your license key on another device.
