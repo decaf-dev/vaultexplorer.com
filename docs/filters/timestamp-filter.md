@@ -4,7 +4,9 @@ sidebar_position: 2
 title: Timestamp filter
 ---
 
-Filters vault files based on their modification or creation date.
+Only displays vault files that match the timestamp filter option.
+
+For specific information, see the table below:
 
 | Name | Description |
 | ---- | ---- |
