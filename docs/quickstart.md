@@ -187,5 +187,7 @@ Now let's set the sticky filter group as a normal group.
 Congratulations! You have just learned the basics of using the Vault Explorer plugin.
 
 ## What's next?
-- Learn more about [custom filter rules](/docs/filters/custom-filter#filter-rules)
+- Learn about [custom filter rule types](/docs/filters/custom-filter#filter-rule-types)
+- Check out the [feed view](/docs/views/feed-view)
+- Learn how to [filter by tags in both frontmatter and content body](/docs/guides/filter-by-all-tags)
 - Learn about [Premium](/docs/premium)
