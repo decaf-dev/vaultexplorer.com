@@ -4,22 +4,6 @@ sidebar_position: 4
 title: Settings
 ---
 
-## Filters
-
-All filters may be enabled or disabled.
-
-When a filter is disabled, it will not be displayed above the view.
-
-## Views
-
-All views may be enabled or disabled.
-
-When a view is disabled, it will not be displayed in the view tab list.
-
-:::note
-Unimplemented views are disabled by default.
-:::
-
 ## General
 
 ### Page size
@@ -53,6 +37,22 @@ When **Normal** is selected, text that overflows will be truncated with ellipsis
 When enabled, scroll buttons will be displayed for scrollable content when scroll bars are hidden.
 
 If you use the plugin on a device with touchscreen or you use a trackpad, it is recommended to disable this setting.
+
+## Filters
+
+All filters may be enabled or disabled.
+
+When a filter is disabled, it will not be displayed above the view.
+
+## Views
+
+All views may be enabled or disabled.
+
+When a view is disabled, it will not be displayed in the view tab list.
+
+:::note
+Unimplemented views are disabled by default.
+:::
 
 ## Built-In Properties
 
