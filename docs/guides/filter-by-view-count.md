@@ -4,4 +4,6 @@ sidebar_position: 3
 title: Filter by view count
 ---
 
+This is a [premium feature](/docs/premium).
+
 TODO
