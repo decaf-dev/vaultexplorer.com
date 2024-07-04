@@ -188,6 +188,6 @@ Congratulations! You have just learned the basics of using the Vault Explorer pl
 
 ## What's next?
 - Learn about [custom filter rule types](/docs/filters/custom-filter#filter-rule-types)
-- Check out the [feed view](/docs/views/feed-view)
+- Check out the [feed view](/docs/views/feed)
 - Learn how to [filter by tags in both frontmatter and content body](/docs/guides/filter-by-all-tags)
 - Learn about [Premium](/docs/premium)
