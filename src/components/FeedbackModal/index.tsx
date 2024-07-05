@@ -70,7 +70,7 @@ export default function FeedbackModal() {
 	return (
 		<>
 			<button
-				className="feedbackModalButton"
+				className={styles.feedbackModalButton}
 				onClick={() => handleButtonClick()}
 			>
 			</button>

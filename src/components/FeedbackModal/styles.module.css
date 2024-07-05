@@ -1,27 +1,26 @@
-:global {
-	.feedbackModalButton {
-		all: unset;
-		position: fixed;
-		right: 25px;
-		bottom: 20px;
-		padding: 4px 12px;
-		border-radius: var(--ifm-button-border-radius);
-		transition: all var(--ifm-transition-fast) var(--ifm-transition-timing-default);
-		background-color: var(--ifm-color-emphasis-200);
-		box-shadow: var(--ifm-global-shadow-lw);
-		cursor: pointer;
-	}
+:global(.feedbackModalButton) {
+	all: unset;
+	position: fixed;
+	right: 25px;
+	bottom: 20px;
+	padding: 4px 12px;
+	border-radius: var(--ifm-button-border-radius);
+	transition: all var(--ifm-transition-fast)
+		var(--ifm-transition-timing-default);
+	background-color: var(--ifm-color-emphasis-200);
+	box-shadow: var(--ifm-global-shadow-lw);
+	cursor: pointer;
+}
 
-	.feedbackModalButton:hover {
-		transform: scale(1.1);
-		background-color: var(--ifm-color-emphasis-300);
-	}
+:global(.feedbackModalButton:hover) {
+	transform: scale(1.1);
+	background-color: var(--ifm-color-emphasis-300);
+}
 
-	.feedbackModalButton::before {
-		font: var(--fa-font-solid);
-		content: '\f075';
-		color: var(--ifm-color-primary);
-	}
+:global(.feedbackModalButton::before) {
+	font: var(--fa-font-solid);
+	content: "\f075";
+	color: var(--ifm-color-primary);
 }
 
 .feedbackModal {
