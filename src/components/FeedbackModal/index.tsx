@@ -81,13 +81,15 @@ export default function FeedbackModal() {
 				<div className={styles.feedbackModal}>
 					<form onSubmit={handleSubmit}>
 						<div>
-							Send us anonymous feedback about the website or
-							plugin
+							Do you have any feedback about the website or plugin?
+						</div>
+						<div className={styles.feedbackModal__subtitle}>
+							This form sends anonymous data
 						</div>
 						<textarea
 							value={content}
 							rows={5}
-							placeholder="Write your message..."
+							placeholder="Write your feedback..."
 							onChange={handleTextAreaChange}
 						/>
 						<div className={styles.feedbackModal__buttonContainer}>
