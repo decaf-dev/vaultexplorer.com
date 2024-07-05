@@ -1,25 +1,24 @@
-:global(.feedbackModalButton) {
+.feedbackModalButton {
 	all: unset;
-	position: fixed;
+	position: fixed !important;
 	right: 25px;
 	bottom: 20px;
 	padding: 4px 12px;
 	border-radius: var(--ifm-button-border-radius);
-	transition: all var(--ifm-transition-fast)
-		var(--ifm-transition-timing-default);
+	transition: all var(--ifm-transition-fast) var(--ifm-transition-timing-default);
 	background-color: var(--ifm-color-emphasis-200);
 	box-shadow: var(--ifm-global-shadow-lw);
 	cursor: pointer;
 }
 
-:global(.feedbackModalButton:hover) {
+.feedbackModalButton:hover {
 	transform: scale(1.1);
 	background-color: var(--ifm-color-emphasis-300);
 }
 
-:global(.feedbackModalButton::before) {
+.feedbackModalButton::before {
 	font: var(--fa-font-solid);
-	content: "\f075";
+	content: '\f075';
 	color: var(--ifm-color-primary);
 }
 
