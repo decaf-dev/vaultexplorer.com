@@ -27,9 +27,9 @@ export default function FeedbackModal() {
 		}
 
 		const clientId = localStorage.getItem(LOCAL_STORAGE_KEY) ?? "";
-
+		
 		try {
-			await fetch("http://localhost:8000/feedback", {
+			await fetch("https://api.vaultexplorer.com/feedback", {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
