@@ -37,6 +37,10 @@
   margin-right: -0.75rem;
 }
 
+.theme-back-to-top-button {
+	margin-bottom: 50px;
+}
+
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/solid.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css);

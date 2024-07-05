@@ -1,0 +1,87 @@
+.feedbackModalButton {
+	all: unset;
+	position: fixed;
+	right: 25px;
+	bottom: 20px;
+	padding: 4px 12px;
+	border-radius: var(--ifm-button-border-radius);
+	transition: all var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+	background-color: var(--ifm-color-emphasis-200);
+	box-shadow: var(--ifm-global-shadow-lw);
+	cursor: pointer;
+}
+
+.feedbackModalButton:hover {
+	transform: scale(1.1);
+	background-color: var(--ifm-color-emphasis-300);
+}
+
+.feedbackModalButton::before {
+	font: var(--fa-font-solid);
+	content: '\f075';
+	color: var(--ifm-color-primary);
+}
+
+.feedbackModal {
+	position: fixed;
+	z-index: 999;
+	right: 25px;
+	bottom: 70px;
+	border-radius: 0.25rem;
+	padding: 6px 12px;
+	width: 300px;
+	border: 1px solid var(--ifm-color-emphasis-300);
+	background: var(--ifm-color-emphasis-200);
+	box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.feedbackModal form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.feedbackModal__submit {
+	all: unset;
+	padding-right: 6px;
+	cursor: pointer;
+}
+
+.feedbackModal__submit::before {
+	font: var(--fa-font-solid);
+	content: "\f1d8";
+	color: var(--ifm-color-primary);
+}
+
+.feedbackModal__submit_disabled {
+	cursor: default;
+}
+
+.feedbackModal__submit_disabled::before {
+	color: var(--ifm-color-emphasis-600);
+}
+
+.feedbackModal textarea {
+	width: 100%;
+	resize: none;
+	padding: 10px;
+	border: 0;
+	border-radius: 0.25rem;
+}
+
+.feedbackModal__buttonContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.feedbackModal__message {
+	font-size: 0.85rem;
+}
+
+.feedbackModal__message_success {
+	color: var(--ifm-color-success);
+}
+
+.feedbackModal__message_error {
+	color: var(--ifm-color-danger);
+}
