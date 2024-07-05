@@ -27,9 +27,11 @@ export default function FeedbackModal() {
 		}
 
 		const clientId = localStorage.getItem(LOCAL_STORAGE_KEY) ?? "";
-		
+
+		const isLocalhost = window.location.hostname === "localhost";
+		const baseUrl = isLocalhost ? "http://localhost:3000" : "https://api.vaultexplorer.com";
 		try {
-			await fetch("https://api.vaultexplorer.com/feedback", {
+			await fetch(`${baseUrl}/feedback`, {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
