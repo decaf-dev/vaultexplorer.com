@@ -4,7 +4,7 @@ sidebar_position: 4
 title: Custom filter
 ---
 
-The custom filter gives you granular control over what is displayed in a view. The custom filter is organized into two categories: `filter groups` and `filter rules`
+The custom filter gives you granular control over what is displayed in a view. The custom filter is organized into two categories: groups and rules.
 
 -   **Filter group** - A collection of filter rules
 -   **Filter rule** - A requirement that must be met for a vault file to be displayed by a view
