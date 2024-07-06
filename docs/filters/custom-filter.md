@@ -45,7 +45,7 @@ TODO
 
 TODO
 
-### Filter rule types
+## Filter rule types
 
 | Name          | Description                                                  |
 | ------------- | ------------------------------------------------------------ |
@@ -54,7 +54,7 @@ TODO
 | `file name`   | A file name                                                  |
 | `content`     | The text found in a markdown note, excluding the frontmatter |
 
-#### Property
+### Property
 
 This rule only applies to markdown files and will not affect any other types of files.
 
@@ -66,7 +66,7 @@ This rule only applies to markdown files and will not affect any other types of 
 | `value`                             | Some text to compare                                                                                                                                                  |
 | `match when property doesn't exist` | When true, markdown files that do not have the selected property name will be unaffected by this rule                                                                 |
 
-#### Folder name
+### Folder name
 
 | Name                | Description                                     |
 | ------------------- | ----------------------------------------------- |
@@ -74,14 +74,14 @@ This rule only applies to markdown files and will not affect any other types of 
 | `folder name`       | The name of the folder                          |
 | `include subfolder` | Whether subfolders should be included           |
 
-#### File name
+### File name
 
 | Name        | Description                                                                                                                     |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | `condition` | The filter condition:<br/>- `is`<br/>- `is not`<br/>- `contains`<br/>- `does not contain`<br/>- `starts with`<br/>- `ends with` |
 | `value`     | Some text to compare                                                                                                            |
 
-#### Content
+### Content
 
 Content is the text that appears in a markdown file, excluding the frontmatter.
 
