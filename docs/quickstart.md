@@ -76,15 +76,17 @@ The favorite filter is applied on top of other filters such as the timestamp fil
 
 <Video name="favorite-filter-2.mov"/>
 
-## Add a custom filter group
+## Add a filter group
 
 The [custom filter](/docs/filters/custom-filter) gives you granular control over what is displayed in a view. The custom filter is organized into filter groups and filter rules. A filter group can have many filter rules.
+
+Start by creating a note. Add a **tags** property with a **test** tag.
 
 :::note
 The creation of this note is arbitrary. It is only used to showcase the custom filter feature.
 :::
 
-Start by creating a note. Add a **tags** property with a **test** tag.
+<br/>
 
 <Video name="custom-filter-1.mov"/>
 
@@ -170,12 +172,12 @@ Now click other groups to see that the sticky group remains enabled.
 
 <Video name="sticky-filter-group-1.mov" maxWidth="400px"/>
 
-## Set a filter group as normal
+## Unset a filter group as sticky
 
-Now let's set the sticky filter group as a normal group.
+Now let's unset the sticky filter group.
 
 1. Hold `ctrl` (Windows/Linux) or `cmd` (Mac)
-2. Click the sticky group to set it as a normal group
+2. Click the group to unset it as a sticky group
 
 <Video name="sticky-filter-group-2.mov" maxWidth="400px"/>
 
@@ -185,6 +187,6 @@ Congratulations! You have just learned the basics of using the Vault Explorer pl
 
 ## What's next?
 
--   Learn about [custom filter rule types](/docs/filters/custom-filter#filter-rule-types)
+-   Learn about [filter rule types](/docs/filters/custom-filter#filter-rule-types)
 -   Learn how to [filter by tags in both frontmatter and content](/docs/guides/filter-by-all-tags)
 -   Learn about [Premium](/docs/premium)
