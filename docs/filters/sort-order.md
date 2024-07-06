@@ -22,4 +22,4 @@ The modified time option will use the file system modification date for sorting.
 
 Random sort works by assigning a random number between 0 and 1 to each file, and sorting the files in ascending order.
 
-The random sort will display a new sort order each time the Vault Explorer view is opened.
+The random sort will generate a new order for the files each time the Vault Explorer view is opened.
