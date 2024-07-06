@@ -73,6 +73,7 @@ export default function FeedbackModal() {
 	return (
 		<>
 			<button
+				data-umami-event="Feedback modal button"
 				className={styles.feedbackModalButton}
 				onClick={() => handleButtonClick()}
 			>
