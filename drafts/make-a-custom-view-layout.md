@@ -2,6 +2,7 @@
 sidebar_label: "Make a custom view layout"
 sidebar_position: 2
 title: Make a custom view layout
+draft: true
 ---
 
 import Image from "@site/src/components/Image";

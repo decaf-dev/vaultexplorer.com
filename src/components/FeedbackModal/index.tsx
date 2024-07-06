@@ -30,7 +30,7 @@ export default function FeedbackModal() {
 
 		const isLocalhost = window.location.hostname === "localhost";
 		const baseUrl = isLocalhost ? "http://localhost:8000" : "https://api.vaultexplorer.com";
-		console.log(baseUrl);
+
 		try {
 			await fetch(`${baseUrl}/feedback`, {
 				method: "POST",
