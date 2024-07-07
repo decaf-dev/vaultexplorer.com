@@ -37,7 +37,7 @@ When you purchase a license, you will receive an email with your license key wit
 
 <PremiumButton/>
 
-#### Register your device
+### Register your device
 
 1. Open the plugin settings by clicking the gear icon in the upper right corner
 2. Scroll down to the **Premium** section
@@ -46,7 +46,7 @@ When you purchase a license, you will receive an email with your license key wit
 
 Congratulations! Your device is now registered to that license.
 
-#### Unregister your device
+### Unregister your device
 
 1. Open the plugin settings by clicking the gear icon in the upper right corner
 2. Scroll down to the **Premium** section
