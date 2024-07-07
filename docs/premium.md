@@ -15,7 +15,7 @@ A license gives you **lifetime access** to premium Vault Explorer features. Purc
 
 <PricingComparison/>
 
-### License types
+## License types
 
 Licenses can only be registered on a finite amounts of devices.
 
@@ -23,15 +23,15 @@ A device is considered any physical machine such as a desktop, laptop, tablet, o
 
 There are 2 types of licenses: **Basic** and **Extended**
 
-#### Basic License
+### Basic License
 
 The basic license can be used on up to 2 devices.
 
-#### Extended License
+### Extended License
 
 The extended license can be up on up to 5 devices.
 
-### License key
+## License key
 
 When you purchase a license, you will receive an email with your license key within 24 hours. After receiving your license key, you will need to register your device with it.
 
