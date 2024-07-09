@@ -16,7 +16,7 @@ Changes the order of the vault files that are displayed.
 
 ## Modified time
 
-The modified time option will use the file system modification date for sorting. If you want to use a property instead, you may update the [modification date property](/docs/settings#modification-date-property) setting.
+The modified time option will use the file system modification date for sorting. If you want to use a property instead, you may update the [modification date property](/docs/settings/#modification-date-property) setting.
 
 ## Random
 

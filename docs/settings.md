@@ -58,7 +58,7 @@ Unimplemented views are disabled by default.
 
 ### Favorite property
 
-The property used to mark a note as a favorite. This is used by the [favorite filter](/docs/filters/favorite-filter).
+The property used to mark a note as a favorite. This is used by the [favorite filter](/docs/filters/favorite-filter/).
 
 :::note
 The setting dropdown only displays **checkbox** properties.
@@ -66,7 +66,7 @@ The setting dropdown only displays **checkbox** properties.
 
 ### URL property
 
-The property used to store the URL of a file. When this setting has a property selected, a link button will appear for cards in the [grid view](/docs/views/grid)
+The property used to store the URL of a file. When this setting has a property selected, a link button will appear for cards in the [grid view](/docs/views/grid/)
 
 :::note
 The setting dropdown only displays **text** properties.
@@ -74,7 +74,7 @@ The setting dropdown only displays **text** properties.
 
 ### Modification date property
 
-The [timestamp filter](/docs/filters/timestamp-filter) filters vault files based on their modification date. By default, the file system's modification date is used. If you prefer to use an Obsidian property, you can select it from the dropdown menu in this setting.
+The [timestamp filter](/docs/filters/timestamp-filter/) filters vault files based on their modification date. By default, the file system's modification date is used. If you prefer to use an Obsidian property, you can select it from the dropdown menu in this setting.
 
 For example, if you have a file that uses the `modification` property name. You should choose `modification` from the dropdown list.
 
@@ -92,7 +92,7 @@ The setting dropdown only displays **date** or **datetime** properties.
 
 ### Creation date property
 
-The [timestamp filter](/docs/filters/timestamp-filter) filters vault files based on their creation date. By default, the file system's creation date is used. If you prefer to use an Obsidian property, you can select it from the dropdown menu in this setting.
+The [timestamp filter](/docs/filters/timestamp-filter/) filters vault files based on their creation date. By default, the file system's creation date is used. If you prefer to use an Obsidian property, you can select it from the dropdown menu in this setting.
 
 For example, if you have a file that uses the `creation` property name. You should choose `creation` from the dropdown list.
 
@@ -124,7 +124,7 @@ Disable this setting if you do not want the view to update every minute.
 
 ### License key
 
-A license key is used to activate [premium features](/docs/premium) on a device. Once you use a license key for a vault, you will have premium features activated on any other vaults that you use on the same device.
+A license key is used to activate [premium features](/docs/premium/) on a device. Once you use a license key for a vault, you will have premium features activated on any other vaults that you use on the same device.
 
 :::info
 If you use Obsidian sync, you will need to enter your license key on each device

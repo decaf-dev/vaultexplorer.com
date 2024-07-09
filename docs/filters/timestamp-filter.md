@@ -18,4 +18,4 @@ For specific information, see the table below:
 | `Modified 2 weeks`   | Modification date is within the last 14 days, starting from 12:00 am today |
 | `Created 2 weeks`    | Creation date is within the last 14 days, starting from 12:00 am today     |
 
-You may use an Obsidian property instead of the file system time by updating the [modification date setting](/docs/settings#modification-date-property) or [creation date setting](/docs/settings#creation-date-property).
+You may use an Obsidian property instead of the file system time by updating the [modification date setting](/docs/settings/#modification-date-property) or [creation date setting](/docs/settings/#creation-date-property).

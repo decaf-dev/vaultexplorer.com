@@ -10,4 +10,4 @@ Vault Explorer allows you to create a custom filter rule based on view count whe
 
 To get started, download the [View Count plugin](https://obsidian.md/plugins?id=view-count) from the Obsidian plugin store.
 
-Follow this [guide](/docs/guides/filter-by-view-count) to filter by view count.
+Follow this [guide](/docs/guides/filter-by-view-count/) to filter by view count.

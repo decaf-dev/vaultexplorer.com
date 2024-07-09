@@ -31,7 +31,7 @@ You may also run **Open vault explorer view** from the [command palette](https:/
 
 ## Change views
 
-Views are different visual formats for displaying your vault files. When you first open the explorer view, the [Grid view](/docs/views/grid) is active.
+Views are different visual formats for displaying your vault files. When you first open the explorer view, the [Grid view](/docs/views/grid/) is active.
 
 To change to another view, click one of the view tabs.
 
@@ -50,7 +50,7 @@ To reorder the view tabs, drag one tab and drop it onto another tab.
 
 Filters allow you to control what is displayed in a view.
 
-The [favorite filter](/docs/filters/favorite-filter) allows you to only display notes that contain a favorite property with a value of **true**.
+The [favorite filter](/docs/filters/favorite-filter/) allows you to only display notes that contain a favorite property with a value of **true**.
 
 Let's choose a property to use with the favorite filter.
 
@@ -78,7 +78,7 @@ The favorite filter is applied on top of other filters such as the timestamp fil
 
 ## Add a filter group
 
-The [custom filter](/docs/filters/custom-filter) gives you granular control over what is displayed in a view. The custom filter is organized into filter groups and filter rules. A filter group can have many filter rules.
+The [custom filter](/docs/filters/custom-filter/) gives you granular control over what is displayed in a view. The custom filter is organized into filter groups and filter rules. A filter group can have many filter rules.
 
 Start by creating a note. Add a **tags** property with a **test** tag.
 
@@ -187,6 +187,6 @@ Congratulations! You have just learned the basics of using the Vault Explorer pl
 
 ## What's next?
 
--   Learn about [filter rule types](/docs/filters/custom-filter#filter-rule-types)
--   Learn how to [filter by tags in both frontmatter and content](/docs/guides/filter-by-all-tags)
--   Learn about [Premium](/docs/premium)
+-   Learn about [filter rule types](/docs/filters/custom-filter/#filter-rule-types)
+-   Learn how to [filter by tags in both frontmatter and content](/docs/guides/filter-by-all-tags/)
+-   Learn about [Premium](/docs/premium/)

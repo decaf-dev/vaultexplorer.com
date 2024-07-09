@@ -5,6 +5,6 @@ title: Filter by view count
 draft: true
 ---
 
-This is a [premium feature](/docs/premium).
+This is a [premium feature](/docs/premium/).
 
 TODO
