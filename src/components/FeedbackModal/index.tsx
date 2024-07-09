@@ -29,7 +29,9 @@ export default function FeedbackModal() {
 		const clientId = localStorage.getItem(LOCAL_STORAGE_KEY) ?? "";
 
 		const isLocalhost = window.location.hostname === "localhost";
-		const baseUrl = isLocalhost ? "http://localhost:8000" : "https://api.vaultexplorer.com";
+		const baseUrl = isLocalhost
+			? "http://localhost:8000"
+			: "https://api.vaultexplorer.com";
 
 		try {
 			await fetch(`${baseUrl}/feedback`, {
@@ -77,20 +79,22 @@ export default function FeedbackModal() {
 				className={styles.feedbackModalButton}
 				onClick={() => handleButtonClick()}
 			>
+				Feedback
 			</button>
 			{isOpen && (
 				<div className={styles.feedbackModal}>
 					<form onSubmit={handleSubmit}>
 						<div>
-							Do you have any feedback about the website or plugin?
+							Do you have any feedback about the website or
+							plugin?
 						</div>
 						<div className={styles.feedbackModal__subtitle}>
-							This form sends anonymous data
+							This form sends data anonymously
 						</div>
 						<textarea
 							value={content}
 							rows={5}
-							placeholder="Write your feedback..."
+							placeholder="I think that..."
 							onChange={handleTextAreaChange}
 						/>
 						<div className={styles.feedbackModal__buttonContainer}>
