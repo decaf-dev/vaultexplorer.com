@@ -45,7 +45,7 @@ const FeatureList: FeatureItem[] = [
 		available: ["basic", "extended"],
 	},
 	{
-		title: "Filter by view count",
+		title: "Load social media image for url",
 		available: ["basic", "extended"],
 	},
 ];
