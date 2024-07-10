@@ -6,40 +6,41 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #673ab6;
-  --ifm-color-primary-dark: #5d34a4;
-  --ifm-color-primary-darker: #58319b;
-  --ifm-color-primary-darkest: #48297f;
-  --ifm-color-primary-light: #7344c4;
-  --ifm-color-primary-lighter: #794ec6;
-  --ifm-color-primary-lightest: #8e69cf;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+	--ifm-color-primary: #673ab6;
+	--ifm-color-primary-dark: #5d34a4;
+	--ifm-color-primary-darker: #58319b;
+	--ifm-color-primary-darkest: #48297f;
+	--ifm-color-primary-light: #7344c4;
+	--ifm-color-primary-lighter: #794ec6;
+	--ifm-color-primary-lightest: #8e69cf;
+	--ifm-code-font-size: 95%;
+	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #9574cd;
-  --ifm-color-primary-dark: #835cc5;
-  --ifm-color-primary-darker: #7a51c0;
-  --ifm-color-primary-darkest: #633ba5;
-  --ifm-color-primary-light: #a78cd5;
-  --ifm-color-primary-lighter: #b097da;
-  --ifm-color-primary-lightest: #cbbbe6;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+[data-theme="dark"] {
+	--ifm-color-primary: #9574cd;
+	--ifm-color-primary-dark: #835cc5;
+	--ifm-color-primary-darker: #7a51c0;
+	--ifm-color-primary-darkest: #633ba5;
+	--ifm-color-primary-light: #a78cd5;
+	--ifm-color-primary-lighter: #b097da;
+	--ifm-color-primary-lightest: #cbbbe6;
+	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 .large-text {
-  font-size: 20px;
+	font-size: 20px;
 }
 
 .navbar__logo {
-  margin-right: -0.75rem;
+	margin-right: -0.75rem;
 }
 
-.theme-back-to-top-button {
+/** Not not needed unless the feedback modal button is moved back to the bottom **/
+/* .theme-back-to-top-button {
 	margin-bottom: 50px;
-}
+} */
 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/solid.min.css);
