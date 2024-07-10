@@ -94,7 +94,7 @@ export default function FeedbackModal() {
 						<textarea
 							value={content}
 							rows={5}
-							placeholder="I think that..."
+							placeholder="It would be helpful if you added..."
 							onChange={handleTextAreaChange}
 						/>
 						<div className={styles.feedbackModal__buttonContainer}>
