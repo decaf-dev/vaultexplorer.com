@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
 	title: "Vault Explorer",
 	tagline: "Explore your vault in visual format",
-	favicon: "img/favicon.png",
+	favicon: "img/favicon.gif",
 	trailingSlash: true,
 
 	// Set the production url of your site here
