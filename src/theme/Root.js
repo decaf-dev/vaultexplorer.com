@@ -1,13 +1,14 @@
-import React from 'react';
+import React from "react";
 import FeedbackModal from "@site/src/components/FeedbackModal";
+import Banner from "@site/src/components/Banner";
 
-// Default implementation, that you can customize
-export default function Root({children}) {
-
-  return(
+//See: https://docusaurus.io/docs/swizzling
+export default function Root({ children }) {
+	return (
 		<>
+			<Banner />
 			{children}
-			<FeedbackModal/>
+			<FeedbackModal />
 		</>
 	);
 }

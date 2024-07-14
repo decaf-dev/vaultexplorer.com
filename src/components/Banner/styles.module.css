@@ -1,0 +1,45 @@
+.banner {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--ifm-color-warning);
+	padding: 10px 20px;
+	font-size: 0.9rem;
+	color: var(--ifm-color-emphasis-900);
+}
+
+.closeButton {
+	position: absolute;
+	top: 13px;
+	right: 20px;
+	background-color: transparent;
+	border: 0;
+	color: var(--ifm-color-emphasis-900);
+	cursor: pointer;
+}
+
+.closeButton::before {
+	font: var(--fa-font-solid);
+	content: "\f00d";
+	font-size: 1.2em;
+}
+
+.banner a {
+	color: var(--ifm-color-emphasis-900);
+	text-decoration: underline;
+}
+
+[data-theme="dark"] .banner {
+	color: var(--ifm-color-emphasis-100);
+	background-color: var(--ifm-color-warning-dark);
+}
+
+[data-theme="dark"] .banner a {
+	color: var(--ifm-color-emphasis-100);
+}
+
+[data-theme="dark"] .closeButton {
+	color: var(--ifm-color-emphasis-100);
+}
