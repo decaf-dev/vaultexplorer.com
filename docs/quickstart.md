@@ -57,39 +57,28 @@ In the list view, you will notice that files are displayed differently. For each
 
 ## Open a file
 
-Now let's open one of the files that appears in this view. Move your mouse and highlight one of the view rows. Then left click on it to open that file in a new tab.
+Now let's open one of the files that appears in this view. Move your mouse and highlight one of the view rows. Then left click on it to open it.
 
 <Image src="img/list-view-2.png" alt="List view" maxWidth="900px"/>
 
 <br/>
 <br/>
 
-Notice how you are navigated to the new tab.
+Notice how the active tab changes to the tab that was just opened.
 
 <Image src="img/list-view-3.png" alt="List view" maxWidth="900px"/>
 
 <br/>
 <br/>
 
-Now let's open a new tab without navigating to it. Highlight the row and right click it. Now click **Open in new tab**.
+Let's open a new tab without navigating to it. Highlight the row and right click it. Click **Open in new tab**.
 
 <Image src="img/list-view-4.png" alt="List view" maxWidth="900px"/>
 
 <br/>
 <br/>
 
-Notice how the tab opens but you don't navigate to it.
-
 <Image src="img/list-view-5.png" alt="List view" maxWidth="400px"/>
-
-<br/>
-<br/>
-
-:::info
-
-The other options in the context menu match the opening behavior found in Obsidian
-
-:::
 
 ## Filter by favorites
 
