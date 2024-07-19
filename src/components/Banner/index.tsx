@@ -30,7 +30,7 @@ export default function Banner() {
 	return (
 		<div className={styles.banner}>
 			<div>
-				<span>The docs now match release </span>
+				<span>The docs now match up to release </span>
 				<a href="https://github.com/decaf-dev/obsidian-vault-explorer/releases">
 					{packageJson.version}
 				</a>
