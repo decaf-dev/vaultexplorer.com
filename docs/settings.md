@@ -121,6 +121,16 @@ The property used to store the URL of a file. When this setting has a property s
 The setting dropdown only displays **text** properties.
 :::
 
+### Image URL property
+
+The property used to store the image URL of a file. When this setting has a property selected, an image will appear in the cover of a grid card.
+
+This property takes precendence over the url property when the grid card displays a cover image.
+
+:::note
+The setting dropdown only displays **text** properties.
+:::
+
 ### Modification date property
 
 The [timestamp filter](/docs/filters/timestamp-filter/) filters vault files based on their modification date. By default, the file system's modification date is used. If you prefer to use an Obsidian property, you can select it from the dropdown menu in this setting.
