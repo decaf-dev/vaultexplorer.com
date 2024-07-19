@@ -4,7 +4,14 @@ sidebar_position: 3
 title: Sort order
 ---
 
-Changes the order of the vault files that are displayed.
+import Image from "@site/src/components/Image";
+
+The sort order changes the order of the files that the view displays.
+
+<Image src="filters/img/sort-order-filter.png" alt="Sort order" maxWidth="300px"/>
+
+<br/>
+<br/>
 
 | Name                         | Description                                          |
 | ---------------------------- | ---------------------------------------------------- |
@@ -23,3 +30,7 @@ The modified time option will use the file system modification date for sorting.
 Random sort works by assigning a random number between 0 and 1 to each file, and sorting the files in ascending order.
 
 Files will be displayed in a new order each time the Vault Explorer view is opened.
+
+You may reshuffle files by pressing the reshuffle button.
+
+<Image src="filters/img/reshuffle.png" alt="Reshuffle files" maxWidth="300px"/>

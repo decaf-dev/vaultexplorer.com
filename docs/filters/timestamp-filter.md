@@ -4,9 +4,14 @@ sidebar_position: 2
 title: Timestamp filter
 ---
 
-Only displays vault files that match the timestamp filter option.
+import Image from "@site/src/components/Image";
 
-For specific information, see the table below:
+The timestamp filter tells the view to only display files that match the selected timestamp.
+
+<Image src="filters/img/timestamp-filter.png" alt="Timestamp filter" maxWidth="300px"/>
+
+<br/>
+<br/>
 
 | Name                 | Description                                                                |
 | -------------------- | -------------------------------------------------------------------------- |
