@@ -6,6 +6,12 @@ title: Settings
 
 ## General
 
+### File interaction
+
+When file interaction is set to `Click on content`, the entire view content will be clickable. A hover effect will appear when moving the mouse over a view item.
+
+When file interaction is to set to `Click on title`, only the title will be clickable. This makes the title display as a hyperlink.
+
 ### File icons
 
 When enabled, files icons will be displayed next to file names.
