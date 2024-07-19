@@ -6,6 +6,55 @@ title: Settings
 
 ## General
 
+### File icons
+
+When enabled, files icons will be displayed next to file names.
+
+Vault Explorer uses the [Lucide](https://lucide.dev) icon set used by Obsidian
+
+| File extension | Lucide id          |
+| -------------- | ------------------ |
+| `excalidraw`   | Custom icon        |
+| `md`           | `file`             |
+| `canvas`       | `layout-dashboard` |
+| `zip`          | `file-archive`     |
+| `png`          | `file-image`       |
+| `jpg`          | `file-image`       |
+| `jpeg`         | `file-image`       |
+| `gif`          | `file-image`       |
+| `webp`         | `file-image`       |
+| `svg`          | `file-image`       |
+| `avif`         | `file-image`       |
+| `bpm`          | `file-image`       |
+| `mp3`          | `file-audio`       |
+| `wav`          | `file-audio`       |
+| `aac`          | `file-audio`       |
+| `flac`         | `file-audio`       |
+| `ogg`          | `file-audio`       |
+| `wma`          | `file-audio`       |
+| `alac`         | `file-audio`       |
+| `aiff`         | `file-audio`       |
+| `mp4`          | `file-video`       |
+| `avi`          | `file-video`       |
+| `mkv`          | `file-video`       |
+| `mov`          | `file-video`       |
+| `wmv`          | `file-video`       |
+| `flv`          | `file-video`       |
+| `webm`         | `file-video`       |
+| `mpeg`         | `file-video`       |
+| `m4v`          | `file-video`       |
+| `3gp`          | `file-video`       |
+| `xls`          | `file-spreadsheet` |
+| `xlsx`         | `file-spreadsheet` |
+| `xml`          | `file-code`        |
+| `json`         | `file-code`        |
+| `ppt`          | `images`           |
+| `pptx`         | `images`           |
+| `doc`          | `file-type`        |
+| `docx`         | `file-type`        |
+| `pdf`          | `file-text`        |
+| `txt`          | `file-text`        |
+
 ### Page size
 
 The number of items to display per page.
