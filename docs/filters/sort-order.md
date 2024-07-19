@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Sort order"
-sidebar_position: 3
+sidebar_position: 4
 title: Sort order
 ---
 

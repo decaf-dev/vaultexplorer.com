@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Favorite filter"
-sidebar_position: 1
+sidebar_position: 2
 title: Favorite filter
 ---
 
