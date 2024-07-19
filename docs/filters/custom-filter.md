@@ -4,6 +4,8 @@ sidebar_position: 4
 title: Custom filter
 ---
 
+import Image from "@site/src/components/Image";
+
 The custom filter gives you granular control over what is displayed in a view. The custom filter is organized into two categories: groups and rules.
 
 -   **Filter group** - A collection of filter rules
@@ -13,37 +15,107 @@ The custom filter gives you granular control over what is displayed in a view. T
 
 ### Add a group
 
-TODO
+To add a group, click the add filter group button.
+
+<Image src="filters/img/add-group.png" alt="Add filter group" maxWidth="400px"/>
 
 ### Delete a group
 
-TODO
+To delete a group, click the delete filter group button.
+
+<Image src="filters/img/delete-group.png" alt="Delete filter group" maxWidth="400px"/>
 
 ### Reorder groups
 
-TODO
+To reorder groups, click and drag a group and drop it onto another group.
 
-### Rename groups
+<Image src="filters/img/reorder-1.png" alt="Reorder filter group" maxWidth="400px"/>
 
-TODO
+<br/>
+<br/>
+
+You may also do this from outside the custom filter modal.
+
+<Image src="filters/img/reorder-2.png" alt="Reorder filter group" maxWidth="300px"/>
+
+### Rename a group
+
+To rename a group, select a group and then change the text found in the input field.
+
+<Image src="filters/img/rename-group.png" alt="Rename filter group" maxWidth="400px"/>
+
+### Set a group as sticky
+
+A sticky group is a group that remains enabled even when another group becomes enabled.
+
+1. Hold `ctrl` (Windows/Linux) or `cmd` (Mac)
+2. Click a group to set it as a sticky group
+
+<Image src="filters/img/sticky-1.png" alt="Set sticky group" maxWidth="300px"/>
+
+### Unset a group as sticky
+
+1. Hold `ctrl` (Windows/Linux) or `cmd` (Mac)
+2. Click a group to unset it as a sticky group
+
+<Image src="filters/img/sticky-2.png" alt="Unset sticky group" maxWidth="300px"/>
 
 ## Filter rules
 
 ### Add a rule
 
-TODO
+To add a rule, click the add filter rule button.
+
+<Image src="filters/img/add-rule.png" alt="Add filter rule" maxWidth="400px"/>
 
 ### Delete a rule
 
-TODO
+To delete a rule, click the rule actions button.
+
+<Image src="filters/img/delete-rule-1.png" alt="Delete filter rule" maxWidth="400px"/>
+
+Then click delete.
+
+<Image src="filters/img/delete-rule-2.png" alt="Delete filter rule" maxWidth="400px"/>
+
+### Duplicate a rule
+
+To duplicate a rule, click the rule action button.
+
+<Image src="filters/img/duplicate-1.png" alt="Duplicate filter rule" maxWidth="400px"/>
+
+<br/>
+<br/>
+
+Then click duplicate.
+
+<Image src="filters/img/duplicate-2.png" alt="Duplicate rule" maxWidth="400px"/>
 
 ### Toggle a rule
 
-TODO
+To enable a rule, click the toggle switch.
+
+<Image src="filters/img/toggle-1.png" alt="Toggle filter rule" maxWidth="400px"/>
+
+<br/>
+<br/>
+
+To disable a rule, click the toggle switch again.
+
+<Image src="filters/img/toggle-2.png" alt="Toggle filter rule" maxWidth="400px"/>
 
 ### Logical operators
 
-TODO
+Filter rules can be combined using the logical operators: **and**, **or**
+
+<Image src="filters/img/logical-operator.png" alt="Logical operator" maxWidth="400px"/>
+
+<br/>
+<br/>
+
+When **and** is selected, both rules must be true for a file to be displayed.
+
+When **or** is selected, either rule may be true for a file to be displayed.
 
 ## Filter rule types
 
