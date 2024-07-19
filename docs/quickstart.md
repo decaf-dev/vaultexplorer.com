@@ -131,7 +131,7 @@ Now go to back to the explorer view, and click the favorites checkbox. The view 
 
 ## Add a custom filter group
 
-Now let's create a custom filter group. Using the [custom filter](/docs/filter/custom-filter) we can filter by frontmatter properties or file data.
+Now let's create a custom filter group. Using the [custom filter](/docs/filters/custom-filter) we can filter by frontmatter properties or file data.
 
 Start by creating a new note. Add a **tags** property with a **test** tag.
 
