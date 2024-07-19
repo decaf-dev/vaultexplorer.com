@@ -81,12 +81,6 @@ When **Normal** is selected, text that overflows will be truncated with ellipsis
 
 **Break-word** is useful if you have long titles without spaces, such as timestamps or UUIDs.
 
-### Enable scroll buttons
-
-When enabled, scroll buttons will be displayed for scrollable content when scroll bars are hidden.
-
-If you use the plugin on a device with touchscreen or you use a trackpad, it is recommended to disable this setting.
-
 ## Filters
 
 All filters may be enabled or disabled.
