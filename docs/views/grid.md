@@ -37,8 +37,6 @@ This can be a wiki link to an image file in the vault or an external URL to an i
 
 When a [url property setting](/docs/settings/#url-property) is configured, the plugin will load the social media image.
 
-This is a [premium feature](/docs/premium/).
-
 <Image src="views/img/social-media-1.png" alt="Social media image" maxWidth="350px"/>
 
 <br/>
