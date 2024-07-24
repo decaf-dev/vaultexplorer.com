@@ -44,10 +44,6 @@ const FeatureList: FeatureItem[] = [
 		title: "Filter by content",
 		available: ["basic", "extended"],
 	},
-	{
-		title: "Load social media image for url",
-		available: ["basic", "extended"],
-	},
 ];
 
 const TierList: TierItem[] = [
