@@ -8,13 +8,13 @@ title: Settings
 
 ### Wrap filter groups
 
-When enabled, filter groups will be wrapped instead. The wrapping is only relevant when you resize the filter group container to be small enough that the horizontal scroll bar appears.
+When enabled, filter groups will be wrapped instead. This is only relevant when you resize the filter group container to be small enough that the horizontal scroll bar appears.
 
 ### File icons
 
 When enabled, files icons will be displayed next to file names.
 
-Vault Explorer uses the [Lucide](https://lucide.dev) icon set used by Obsidian
+Vault Explorer uses the [Lucide icons](https://lucide.dev) used by Obsidian.
 
 | File extension | Lucide id          |
 | -------------- | ------------------ |
@@ -113,7 +113,7 @@ TODO
 
 ### Load social media image
 
-TODO
+When this setting is enabled, social media images will be loaded.
 
 ## List view
 
@@ -125,23 +125,37 @@ When enabled, tags will display for a markdown file.
 
 ### Remove H1
 
-TODO
+When enabled, level 1 headers are removed from the file content before display.
 
 ### Collapse style
 
-TODO
+When you press the `Enter` or `return` key on your keyboard, a new line character is inserted. This setting will remove most of those new line characters in file content, so that content is easier to read at a glance.
+
+If you want the content fully collapsed, you can select the **No new lines** option. Otherwise, you can select the **No extra lines** option.
 
 ### Large screen line clamp
 
-TODO
+The number of lines of content to display on large sized screens. A large screen is `>= 1024px`.
+
+:::info
+The default value is 5
+:::
 
 ### Medium screen line clamp
 
-TODO
+The number of lines of content to display on medium sized screens. A medium screen is `>= 600px` and `< 1024px`.
+
+:::info
+The default value is 3
+:::
 
 ### Small screen line clamp
 
-TODO
+The number of lines of content to display on small sized screens. A small screen is `< 600px`.
+
+:::info
+The default value is 2
+:::
 
 ## Built-In Properties
 
@@ -203,11 +217,9 @@ TODO
 
 ## Updates
 
-### Enable clock updates
+### Clock updates
 
-The plugin will automatically update time values every minute, ensuring that the timestamp filter uses the most current time values. As a result, the Vault Explorer view will refresh every minute.
-
-Disable this setting if you do not want the view to update every minute.
+When enabled, the plugin will automatically update time values every minute, ensuring that the timestamp filter uses the most current time values. This will cause the Vault Explorer view to refresh every minute.
 
 ## Premium
 
@@ -249,6 +261,6 @@ If you change this path you will need to restart Obsidian
 
 ### Social media image
 
-Social media images are stored in the IndexedDB of Obsidian. This cache is shared between all vaults.
+Social media images are stored in the IndexedDB of Electron. This cache is shared between all vaults.
 
 If you would like to clear this cache, you may click the **Clear cache** button. After clearing the cache, please close and reopen the Vault Explorer view for images to reload.
