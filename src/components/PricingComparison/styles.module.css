@@ -70,12 +70,21 @@
 }
 
 .tierCard__featureTitle {
-	color: var(--ifm-font-color-base);
+	color: var(--ifm-font-color-secondary);
+}
+
+.tierCard__featureTitle_available {
+	text-decoration: underline;
 }
 
 .tierCard__featureTitle_unavailable {
 	text-decoration: line-through underline;
 	color: var(--ifm-color-emphasis-500);
+}
+
+.tierCard__featureTitle_unavailable:hover {
+	color: var(--ifm-color-emphasis-600) !important;
+	text-decoration: line-through underline !important;
 }
 
 .faicon::before {
@@ -85,37 +94,45 @@
 
 .tierCard__featureIcon_unavailable::before {
 	font: var(--fa-font-solid);
-	content: '\58';
+	content: "\58";
 	padding-right: 6px;
 	color: var(--ifm-color-emphasis-500);
 }
 
 .tierCard__featureIcon_available::before {
 	font: var(--fa-font-solid);
-	content: '\f00c';
+	content: "\f00c";
 	padding-right: 6px;
 	color: var(--ifm-color-success);
 }
 
 /* Dark mode styles */
-[data-theme='dark'] .tierCard {
+[data-theme="dark"] .tierCard {
 	background-color: var(--ifm-color-secondary-dark);
 }
 
-[data-theme='dark'] .tierCard__title,
-[data-theme='dark'] .tierCard__description,
-[data-theme='dark'] .tierCard__price,
-[data-theme='dark'] .tierCard__priceDescription,
-[data-theme='dark'] .tierCard__featuresTitle,
-[data-theme='dark'] .tierCard__feature,
-[data-theme='dark'] .tierCard__featureTitle {
+[data-theme="dark"] .tierCard__title,
+[data-theme="dark"] .tierCard__description,
+[data-theme="dark"] .tierCard__price,
+[data-theme="dark"] .tierCard__priceDescription,
+[data-theme="dark"] .tierCard__featuresTitle,
+[data-theme="dark"] .tierCard__feature,
+[data-theme="dark"] .tierCard__featureTitle {
 	color: var(--ifm-font-color-base-inverse);
 }
 
-[data-theme='dark'] .tierCard__featureTitle_unavailable {
+[data-theme="dark"] .tierCard__featureTitle_available:hover {
+	color: var(--ifm-color-primary-darkest);
+}
+
+[data-theme="dark"] .tierCard__featureTitle_unavailable {
 	color: var(--ifm-color-emphasis-400);
 }
 
-[data-theme='dark'] .tierCard__featureIcon_unavailable::before {
+[data-theme="dark"] .tierCard__featureTitle_unavailable:hover {
+	color: var(--ifm-color-emphasis-300) !important;
+}
+
+[data-theme="dark"] .tierCard__featureIcon_unavailable::before {
 	color: var(--ifm-color-emphasis-400);
 }

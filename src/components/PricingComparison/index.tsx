@@ -5,6 +5,7 @@ import clsx from "clsx";
 interface FeatureItem {
 	title: string;
 	available: string[];
+	url: string;
 }
 
 interface TierItem {
@@ -19,30 +20,37 @@ const FeatureList: FeatureItem[] = [
 	{
 		title: "Grid view",
 		available: ["casual", "basic", "extended"],
+		url: "/docs/views/grid",
 	},
 	{
 		title: "List view",
 		available: ["casual", "basic", "extended"],
+		url: "/docs/views/list",
 	},
 	{
 		title: "Feed view",
 		available: ["basic", "extended"],
+		url: "/docs/views/feed",
 	},
 	{
 		title: "Filter by property",
 		available: ["casual", "basic", "extended"],
+		url: "/docs/filters/custom-filter/#property",
 	},
 	{
 		title: "Filter by file name",
 		available: ["casual", "basic", "extended"],
+		url: "/docs/filters/custom-filter/#file-name",
 	},
 	{
 		title: "Filter by folder name",
 		available: ["casual", "basic", "extended"],
+		url: "/docs/filters/custom-filter/#folder-name",
 	},
 	{
 		title: "Filter by content",
 		available: ["basic", "extended"],
+		url: "/docs/filters/custom-filter/#content",
 	},
 ];
 
@@ -115,7 +123,10 @@ function Tier({ id, title, description, price, url }: TierItem) {
 										: styles.tierCard__featureIcon_unavailable
 								)}
 							></span>
-							<span
+							<a
+								href={feature.url}
+								target="_blank"
+								rel="noopener"
 								className={clsx(
 									styles.tierCard__featureTitle,
 									feature.available.includes(id)
@@ -124,7 +135,7 @@ function Tier({ id, title, description, price, url }: TierItem) {
 								)}
 							>
 								{title}
-							</span>
+							</a>
 						</div>
 					);
 				})}
