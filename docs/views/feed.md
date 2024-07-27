@@ -14,8 +14,8 @@ This is a [premium feature](/docs/premium/).
 
 ## Settings
 
-By default, level 1 headers are removed. If you would like to enable them, you can change the [remove H1 setting](/docs/settings/#remove-h1).
+By default, level 1 headers are removed. If you would like to keep them, you can disable the [remove H1 setting](/docs/settings/#remove-h1).
 
-Content may be fully collapsed (no lines), by changing the [collapse style setting](/docs/settings/#collapse-style).
+By default, markdown file content is completely collapsed (no new lines). See further options in the [collapse style setting](/docs/settings/#collapse-style).
 
-The number of lines to display can be updated by changing the [line clamp setting](/docs/settings/#large-screen-line-clamp) for each screen size.
+The number of lines of content to display can be updated by changing the [line clamp setting](/docs/settings/#large-screen-line-clamp) for each screen size.
