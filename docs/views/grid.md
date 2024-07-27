@@ -10,6 +10,29 @@ The grid view displays vault files as cards in a grid. The grid will expand to a
 
 <Image src="views/img/grid-view.png"/>
 
+## Link
+
+When you have a URL property in the frontmatter and have configured the [URL property](/docs/settings/#url-property) setting, a link button will appear in the grid card. Clicking the link will open the URL in a new browser tab.
+
+```markdown
+---
+url: https://images.pexels.com/photos/15238854/pexels-photo-15238854/free-photo-of-ruins-of-ancient-greek-amphitheatre.jpeg?auto=compress&cs=tinysrgb&w=800
+---
+```
+
+<Image src="views/img/grid-card-url.png" maxWidth="350px"/>
+
+## Tags
+
+Tags are displayed for a markdown file. When you click on a tag, the search view will open and filter by that tag.
+
+<Image src="views/img/grid-tags.png" maxWidth="350px"/>
+
+<br/>
+<br/>
+
+<Image src="views/img/search-tag.png" maxWidth="250px"/>
+
 ## Cover image
 
 ### Default
@@ -20,21 +43,21 @@ By default, the grid card will display a gray background with a file icon as a p
 
 ### Image file
 
-If a vault file has an image extension (`.jpeg`, `.png`, etc). The file image will be displayed as the cover image.
+If a vault file has an image extension, the file image will be displayed as the cover image.
 
 ### Automatic image loading
 
-If [automatic cover image detection](/docs/settings/#automatic-cover-image-detection) is active, the plugin will automatically load a cover image.
+If [automatic cover image detection](/docs/settings/#automatic-cover-image-detection) is enabled, the plugin will automatically load a cover image.
 
 **Detection priority**
 
-| Name        | Priority | Area                   |
-| ----------- | -------- | ---------------------- |
-| WikiLink    | 1        | Frontmatter or content |
-| Image URL   | 2        | Frontmatter only       |
-| Reguarl URL | 3        | Frontmatter only       |
+| Name          | Priority | Area                   |
+| ------------- | -------- | ---------------------- |
+| WikiLink      | 1        | Frontmatter or content |
+| Image URL     | 2        | Frontmatter only       |
+| Non-image URL | 3        | Frontmatter only       |
 
-**WikiLink**
+#### WikiLink
 
 ```markdown
 ---
@@ -42,7 +65,7 @@ cover: [[seagull-bird-animal-nature-162992.jpeg]]
 ---
 ```
 
-**Image URL**
+#### Image URL
 
 ```markdown
 ---
@@ -50,7 +73,7 @@ url: https://images.pexels.com/photos/162292/seagull-bird-animal-nature-162292.j
 ---
 ```
 
-**Regular URL**
+#### Non-image URL
 
 ```markdown
 ---
@@ -60,15 +83,8 @@ url: https://vaultexplorer.com
 
 ### Social media image
 
-A regular URL may have a _social media image_. This is a public image that is used to represent the website or article on social media sites. To find this URL, the plugin will preform a `GET` request to fetch the entire website. The found url is stored in a cache for quick access.
+A non-image URL may have a _social media image_. This is a public image that repesents the website or article on social media sites. To find this URL, the plugin will preform a `GET` request to the URL and parse the social media URL. The social media image URL is stored in a cache for future access.
 
-Cached social media images expire after 1 week. If a website updates their social media image, you will need to wait 1 week for the updated image to appear in your cover image.
+Cached social media image URLs expire after 1 week. If a website frequently updates their social media image, you will need to wait 1 week for the updated image to appear in the cover image.
 
-You may force the social media image to update by clearing the image cache.
-
-1. Open the plugin settings by clicking the gear icon in the upper right corner
-2. Scroll down to the **Data** section
-3. Find the **Social media image** setting
-4. Click the **Clear cache** button
-
-<Image src="views/img/clear-social-media-cache.png" alt="Clear cache" maxWidth="900px"/>
+You may force an update to the social media image by [clearing](/docs/settings/#social-media-image) the image cache.

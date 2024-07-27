@@ -119,7 +119,7 @@ TODO
 
 ### Tags
 
-TODO
+When enabled, tags will display for a markdown file.
 
 ## Feed view
 
@@ -149,16 +149,16 @@ TODO
 
 The property used to mark a note as a favorite. This is used by the [favorite filter](/docs/filters/favorite-filter/).
 
-:::note
-The setting dropdown only displays **checkbox** properties.
+:::info
+The property dropdown only displays **checkbox** properties.
 :::
 
 ### URL property
 
-The property used to store the URL of a file. When this setting has a property selected, a link button will appear for cards in the [grid view](/docs/views/grid/)
+The property used to store the URL of a markdown file. When this setting has a property selected, a link button may appear for cards in the [grid view](/docs/views/grid/).
 
 :::info
-The setting dropdown only displays **text** properties.
+The property dropdown only displays **text** properties.
 :::
 
 ### Modification date property
@@ -176,7 +176,7 @@ modification: 2020-01-01T23:00:00
 If the selected property does not exist for a file, the file system's modification date will be used. This applies to files such as images, videos, and PDFs.
 
 :::info
-The setting dropdown only displays **date** or **datetime** properties.
+The property dropdown only displays **date** or **datetime** properties.
 :::
 
 ### Creation date property
@@ -194,7 +194,7 @@ creation: 2020-01-01T23:00:00
 If the selected property does not exist for a file, the file system's creation date will be used. This applies to files such as images, videos, and PDFs.
 
 :::info
-The setting dropdown only displays **date** or **datetime** properties.
+The property dropdown only displays **date** or **datetime** properties.
 :::
 
 ## Custom Properties
@@ -235,8 +235,20 @@ When the log level is **Off**, no messages from the Vault Explorer plugin will a
 
 ### Config folder
 
-TODO
+The config folder stores metadata related to the plugin.
 
-### Social media image cache
+:::warning
+If you change this path you will need to restart Obsidian
+:::
 
-TODO
+#### Files
+
+| Name             | Purpose                                            |
+| ---------------- | -------------------------------------------------- |
+| `favorites.json` | Stores favorite information for non-markdown files |
+
+### Social media image
+
+Social media images are stored in the IndexedDB of Obsidian. This cache is shared between all vaults.
+
+If you would like to clear this cache, you may click the **Clear cache** button. After clearing the cache, please close and reopen the Vault Explorer view for images to reload.
