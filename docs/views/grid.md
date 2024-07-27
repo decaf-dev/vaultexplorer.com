@@ -22,7 +22,7 @@ If the file is an image, it will be displayed as the cover image.
 
 ### Image property
 
-When the [image url property setting](/docs/settings/#image-url-property) is configured, the plugin will load a cover image from the image provided.
+When [automatic cover image detection](/docs/settings/#automatic-cover-image-detection) is set, the plugin will load a cover image.
 
 This can be a wiki link to an image file in the vault or an external URL to an image file.
 
