@@ -20,11 +20,13 @@ By default, the grid card will display a gray background with a file icon as a p
 
 ### Image file
 
-If a vault file is an image file (`.jpg`, `.jpeg`, `.png`, etc). The cover image will display the image.
+If a vault file has an image extension (`.jpeg`, `.png`, etc). The file image will be displayed as the cover image.
 
 ### Automatic image loading
 
-If [automatic cover image detection](/docs/settings/#automatic-cover-image-detection) is set to a value other than `Off`, the plugin will automatically load a cover image.
+If [automatic cover image detection](/docs/settings/#automatic-cover-image-detection) is active, the plugin will automatically load a cover image.
+
+**Detection priority**
 
 | Name        | Priority | Area                   |
 | ----------- | -------- | ---------------------- |
@@ -58,14 +60,15 @@ url: https://vaultexplorer.com
 
 ### Social media image
 
-A regular URL may have a _Social media image_. This is a public image that is used to represent the website or article on social media sites. For a regular URL, the plugin will preform a `GET` request to fetch the entire website, and parse the social media image url. To optimize this process, the results are stored in a cache in your browser.
+A regular URL may have a _social media image_. This is a public image that is used to represent the website or article on social media sites. To find this URL, the plugin will preform a `GET` request to fetch the entire website. The found url is stored in a cache for quick access.
 
-Cached social media images expire after 1 week. If a website has updated their social media image, that means you will need to wait 1 week for the updated image to appear in your image placeholder.
+Cached social media images expire after 1 week. If a website updates their social media image, you will need to wait 1 week for the updated image to appear in your cover image.
 
-You may clear the social media image cache from the plugin settings.
+You may force the social media image to update by clearing the image cache.
 
-1. Navigate to the **Data** section
-2. Find the **Social media image** setting
-3. Click **Clear cache**
+1. Open the plugin settings by clicking the gear icon in the upper right corner
+2. Scroll down to the **Data** section
+3. Find the **Social media image** setting
+4. Click the **Clear cache** button
 
 <Image src="views/img/clear-social-media-cache.png" alt="Clear cache" maxWidth="900px"/>
