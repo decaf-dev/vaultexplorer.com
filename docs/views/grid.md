@@ -14,13 +14,46 @@ The grid view displays vault files as cards in a grid. The grid will expand to a
 
 When you have a URL property and have configured the [URL property](/docs/settings/#url-property) setting, a link button will appear in the grid card. Clicking the link will open the URL in a new browser tab.
 
+<br/>
+
+<Image src="views/img/url-property-1.png" maxWidth="900px"/>
+
+<br/>
+<br/>
+
 ```markdown
 ---
 url: https://images.pexels.com/photos/15238854/pexels-photo-15238854/free-photo-of-ruins-of-ancient-greek-amphitheatre.jpeg?auto=compress&cs=tinysrgb&w=800
 ---
 ```
 
-<Image src="views/img/grid-card-url.png" maxWidth="350px"/>
+<Image src="views/img/url-property-2.png" maxWidth="350px"/>
+
+## Properties
+
+When you have a text property and 1 of the 3 [custom property](/docs/settings/#custom-properties) settings configured, a text property button will appear in the grid card.
+
+When you click on a property, the search view will open and filter by that property.
+
+<br/>
+
+<Image src="views/img/text-property-1.png" maxWidth="900px"/>
+
+<br/>
+<br/>
+
+```markdown
+---
+comments: Went here in 2019
+---
+```
+
+<Image src="views/img/text-property-2.png" maxWidth="350px"/>
+
+<br/>
+<br/>
+
+<Image src="views/img/text-property-3.png" maxWidth="350px"/>
 
 ## Tags
 
