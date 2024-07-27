@@ -130,28 +130,60 @@ When **or** is selected, either rule may be true for a file to be displayed.
 
 This rule only applies to markdown files and will not affect any other types of files.
 
-| Name                                | Description                                                                                                                                                           |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `property type`                     | This matches an Obsidian property type:<br/>- `text` <br/>- `number`<br/>- `list`<br/>- `checkbox`<br/>- `date`<br/>- `datetime`                                      |
-| `property name`                     | The name of the property                                                                                                                                              |
-| `condition`                         | The filter condition:<br/>- `is`<br/>- `is not`<br/>- `contains`<br/>- `does not contain`<br/>- `starts with`<br/>- `ends with`<br/>- `exists`<br/>- `does not exist` |
-| `value`                             | Some text to compare                                                                                                                                                  |
-| `match when property doesn't exist` | When true, markdown files that do not have the selected property name will be unaffected by this rule                                                                 |
+| Name                                | Description                                                                                           |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `property type`                     | This matches an Obsidian property type                                                                |
+| `property name`                     | The name of the property                                                                              |
+| `condition`                         | The filter condition                                                                                  |
+| `value`                             | Some text to compare                                                                                  |
+| `match when property doesn't exist` | When true, markdown files that do not have the selected property name will be unaffected by this rule |
+
+#### Obsidian property types
+
+-   `text`
+-   `number`
+-   `list`
+-   `checkbox`
+-   `date`
+-   `datetime`
+
+#### Filter condition options
+
+-   `is`
+-   `is not`
+-   `contains`
+-   `does not contain`
+-   `starts with`
+-   `ends with`
+-   `exists`
+-   `does not exist`
 
 ### Folder name
 
-| Name                | Description                                     |
-| ------------------- | ----------------------------------------------- |
-| `condition`         | The filter condition:<br/>- `is`<br/>- `is not` |
-| `folder name`       | The name of the folder                          |
-| `include subfolder` | Whether subfolders should be included           |
+| Name                | Description                           |
+| ------------------- | ------------------------------------- |
+| `condition`         | The filter condition                  |
+| `folder name`       | The name of the folder                |
+| `include subfolder` | Whether subfolders should be included |
+
+#### Filter condition options
+
+-   `is`
+-   `is not`
 
 ### File name
 
-| Name        | Description                                                                                                                     |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| `condition` | The filter condition:<br/>- `is`<br/>- `is not`<br/>- `contains`<br/>- `does not contain`<br/>- `starts with`<br/>- `ends with` |
-| `value`     | Some text to compare                                                                                                            |
+| Name        | Description          |
+| ----------- | -------------------- |
+| `condition` | The filter condition |
+| `value`     | Some text to compare |
+
+#### Filter condition options
+
+-   `contains`
+-   `does not contain`
+-   `starts with`
+-   `ends with`
 
 ### Content
 
@@ -163,7 +195,15 @@ This rule can be used to filter by tags that appear in the body of a markdown no
 
 This is a [premium feature](/docs/premium/).
 
-| Name        | Description                                                                                           |
-| ----------- | ----------------------------------------------------------------------------------------------------- |
-| `condition` | The filter condition:<br/>- `contains`<br/>- `does not contain`<br/>- `is empty`<br/>- `is not empty` |
-| `value`     | Some text to compare                                                                                  |
+| Name        | Description          |
+| ----------- | -------------------- |
+| `condition` | The filter condition |
+| `value`     | Some text to compare |
+
+#### Filter condition options
+
+-   `contains`
+-   `does not contain`
+-   `ends with`
+-   `is empty`
+-   `is not empty`
