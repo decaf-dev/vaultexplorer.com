@@ -12,7 +12,7 @@ This is a [premium feature](/docs/premium/).
 
 <Image src="views/img/feed-view.png"/>
 
-## Settings
+## Content
 
 By default, level 1 headers are removed. If you would like to keep them, you can disable the [remove H1 setting](/docs/settings/#remove-h1).
 
