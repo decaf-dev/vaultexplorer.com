@@ -6,11 +6,9 @@ title: Settings
 
 ## General
 
-### File interaction
+### Wrap filter groups
 
-When file interaction is set to `Click on content`, the entire view content will be clickable. A hover effect will appear when moving the mouse over a view item.
-
-When file interaction is to set to `Click on title`, only the title will be clickable. This makes the title display as a hyperlink.
+When enabled, filter groups will be wrapped instead. The wrapping is only relevant when you resize the filter group container to be small enough that the horizontal scroll bar appears.
 
 ### File icons
 
@@ -76,7 +74,7 @@ The number of items to display per page.
 Increasing the page size will cause longer render times and potential lag
 :::
 
-### Title wrapping
+<!-- ### Title wrapping
 
 | Name         | Description                             |
 | ------------ | --------------------------------------- |
@@ -85,7 +83,7 @@ Increasing the page size will cause longer render times and potential lag
 
 When **Normal** is selected, text that overflows will be truncated with ellipsis `...`
 
-**Break-word** is useful if you have long titles without spaces, such as timestamps or UUIDs.
+**Break-word** is useful if you have long titles without spaces, such as timestamps or UUIDs. -->
 
 ## Filters
 
@@ -99,9 +97,51 @@ All views may be enabled or disabled.
 
 When a view is disabled, it will not be displayed in the view tab list.
 
-:::note
+:::info
 Unimplemented views are disabled by default.
 :::
+
+## Grid view
+
+### Automatic cover image detection
+
+TODO
+
+### Preferred cover image property
+
+TODO
+
+### Load social media image
+
+TODO
+
+## List view
+
+### Tags
+
+TODO
+
+## Feed view
+
+### Remove H1
+
+TODO
+
+### Collapse style
+
+TODO
+
+### Large screen line clamp
+
+TODO
+
+### Medium screen line clamp
+
+TODO
+
+### Small screen line clamp
+
+TODO
 
 ## Built-In Properties
 
@@ -117,17 +157,7 @@ The setting dropdown only displays **checkbox** properties.
 
 The property used to store the URL of a file. When this setting has a property selected, a link button will appear for cards in the [grid view](/docs/views/grid/)
 
-:::note
-The setting dropdown only displays **text** properties.
-:::
-
-### Image URL property
-
-The property used to store the image URL of a file. When this setting has a property selected, an image will appear in the cover of a grid card.
-
-This property takes precendence over the url property when the grid card displays a cover image.
-
-:::note
+:::info
 The setting dropdown only displays **text** properties.
 :::
 
@@ -145,7 +175,7 @@ modification: 2020-01-01T23:00:00
 
 If the selected property does not exist for a file, the file system's modification date will be used. This applies to files such as images, videos, and PDFs.
 
-:::note
+:::info
 The setting dropdown only displays **date** or **datetime** properties.
 :::
 
@@ -163,7 +193,7 @@ creation: 2020-01-01T23:00:00
 
 If the selected property does not exist for a file, the file system's creation date will be used. This applies to files such as images, videos, and PDFs.
 
-:::note
+:::info
 The setting dropdown only displays **date** or **datetime** properties.
 :::
 
@@ -200,3 +230,13 @@ The level is set to **Warn** by default. This means that log messages at level *
 If you want to see more log messages for debugging change the level to **Debug** or **Trace**.
 
 When the log level is **Off**, no messages from the Vault Explorer plugin will appear in the console besides messages related to migration of settings on plugin startup.
+
+## Data
+
+### Config folder
+
+TODO
+
+### Social media image cache
+
+TODO
