@@ -51,11 +51,11 @@ If [automatic cover image detection](/docs/settings/#automatic-cover-image-detec
 
 **Detection priority**
 
-| Name          | Priority | Area                   |
-| ------------- | -------- | ---------------------- |
-| WikiLink      | 1        | Frontmatter or content |
-| Image URL     | 2        | Frontmatter only       |
-| Non-image URL | 3        | Frontmatter only       |
+| Name          | Priority | Area                 |
+| ------------- | -------- | -------------------- |
+| WikiLink      | 1        | Frontmatter and body |
+| Image URL     | 2        | Frontmatter only     |
+| Non-image URL | 3        | Frontmatter only     |
 
 #### WikiLink
 
