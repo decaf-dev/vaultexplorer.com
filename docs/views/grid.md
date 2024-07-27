@@ -12,34 +12,60 @@ The grid view displays vault files as cards in a grid. The grid will expand to a
 
 ## Cover image
 
-By default, the grid card will display a gray background as a placeholder.
+### Default
+
+By default, the grid card will display a gray background with a file icon as a placeholder.
 
 <Image src="views/img/image-placeholder.png" alt="Cover image placeholder" maxWidth="350px"/>
 
 ### Image file
 
-If the file is an image, it will be displayed as the cover image.
+If a vault file is an image file (`.jpg`, `.jpeg`, `.png`, etc). The cover image will display the image.
 
-### Image property
+### Automatic image loading
 
-When [automatic cover image detection](/docs/settings/#automatic-cover-image-detection) is set, the plugin will load a cover image.
+If [automatic cover image detection](/docs/settings/#automatic-cover-image-detection) is set to a value other than `Off`, the plugin will automatically load a cover image.
 
-This can be a wiki link to an image file in the vault or an external URL to an image file.
+| Name        | Priority | Area                   |
+| ----------- | -------- | ---------------------- |
+| WikiLink    | 1        | Frontmatter or content |
+| Image URL   | 2        | Frontmatter only       |
+| Reguarl URL | 3        | Frontmatter only       |
 
-<Image src="views/img/image-property-1.png" alt="Image property" maxWidth="350px"/>
+**WikiLink**
 
-<br/>
-<br/>
+```markdown
+---
+cover: [[seagull-bird-animal-nature-162992.jpeg]]
+---
+```
 
-<Image src="views/img/image-property-2.png" alt="Image property" maxWidth="500px"/>
+**Image URL**
 
-### URL property
+```markdown
+---
+url: https://images.pexels.com/photos/162292/seagull-bird-animal-nature-162292.jpeg?auto=compress&cs=tinysrgb&w=800
+---
+```
 
-When a [url property setting](/docs/settings/#url-property) is configured, the plugin will load the social media image.
+**Regular URL**
 
-<Image src="views/img/social-media-1.png" alt="Social media image" maxWidth="350px"/>
+```markdown
+---
+url: https://vaultexplorer.com
+---
+```
 
-<br/>
-<br/>
+### Social media image
 
-<Image src="views/img/social-media-2.png" alt="Social media image" maxWidth="350px"/>
+A regular URL may have a _Social media image_. This is a public image that is used to represent the website or article on social media sites. For a regular URL, the plugin will preform a `GET` request to fetch the entire website, and parse the social media image url. To optimize this process, the results are stored in a cache in your browser.
+
+Cached social media images expire after 1 week. If a website has updated their social media image, that means you will need to wait 1 week for the updated image to appear in your image placeholder.
+
+You may clear the social media image cache from the plugin settings.
+
+1. Navigate to the **Data** section
+2. Find the **Social media image** setting
+3. Click **Clear cache**
+
+<Image src="views/img/clear-social-media-cache.png" alt="Clear cache" maxWidth="900px"/>
