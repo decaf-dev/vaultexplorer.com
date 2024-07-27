@@ -6,7 +6,7 @@ title: Timestamp filter
 
 import Image from "@site/src/components/Image";
 
-The timestamp filter tells the view to only display files that match the selected timestamp.
+The timestamp filter tells a view to only display files that match the selected timestamp.
 
 <Image src="filters/img/timestamp-filter.png" alt="Timestamp filter" maxWidth="300px"/>
 
