@@ -16,6 +16,6 @@ This is a [premium feature](/docs/premium/).
 
 By default, level 1 headers are removed. If you would like to enable them, you can change the [remove H1 setting](/docs/settings/#remove-h1).
 
-Content may be fully collapsed (no no lines), by changing the [collapse style setting](/docs/settings/#collapse-style).
+Content may be fully collapsed (no lines), by changing the [collapse style setting](/docs/settings/#collapse-style).
 
 The number of lines to display can be updated by changing the [line clamp setting](/docs/settings/#large-screen-line-clamp) for each screen size.
