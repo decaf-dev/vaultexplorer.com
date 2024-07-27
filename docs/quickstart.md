@@ -150,18 +150,30 @@ Click the property type dropdown. Change it from **text** to **list**
 <Image src="img/custom-filter-4.png" alt="Custom filter" maxWidth="350px"/>
 
 <br/>
-<br/>
-
-Then, click the property name dropdown. Change it from **select a property** to **tags**
 
 <Image src="img/custom-filter-5.png" alt="Custom filter" maxWidth="350px"/>
 
 <br/>
 <br/>
 
-Enter **test** into the input field. Although this is a tag, you don't include a hash mark `#`.
+Then, click the property name dropdown. Change it from **select a property** to **tags**
 
 <Image src="img/custom-filter-6.png" alt="Custom filter" maxWidth="350px"/>
+
+<br/>
+
+<Image src="img/custom-filter-7.png" alt="Custom filter" maxWidth="350px"/>
+
+<br/>
+<br/>
+
+Enter **test** into the input field. Although this is a tag, you don't include a hash mark `#`.
+
+<Image src="img/custom-filter-8.png" alt="Custom filter" maxWidth="350px"/>
+
+<br/>
+
+<Image src="img/custom-filter-9.png" alt="Custom filter" maxWidth="350px"/>
 
 <br/>
 <br/>
@@ -170,7 +182,7 @@ Finally, click outside of the modal.
 
 Click the filter group to enable it. With the filter group enabled, only have files that have a **tags** property containing a **test** with be displayed.
 
-<Image src="img/custom-filter-7.png" alt="Custom filter" maxWidth="900px"/>
+<Image src="img/custom-filter-10.png" alt="Custom filter" maxWidth="900px"/>
 
 ## Congratulations
 
