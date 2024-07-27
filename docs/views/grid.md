@@ -12,7 +12,7 @@ The grid view displays vault files as cards in a grid. The grid will expand to a
 
 ## Link
 
-When you have a URL property in the frontmatter and have configured the [URL property](/docs/settings/#url-property) setting, a link button will appear in the grid card. Clicking the link will open the URL in a new browser tab.
+When you have a URL property and have configured the [URL property](/docs/settings/#url-property) setting, a link button will appear in the grid card. Clicking the link will open the URL in a new browser tab.
 
 ```markdown
 ---
@@ -84,6 +84,8 @@ url: https://vaultexplorer.com
 ### Social media image
 
 A non-image URL may have a _social media image_. This is a public image that repesents the website or article on social media sites. To find this URL, the plugin will preform a `GET` request to the URL and parse the social media URL. The social media image URL is stored in a cache for future access.
+
+You can disable this by toggling the [load social media image](/docs/settings/#load-social-media-image) setting.
 
 Cached social media image URLs expire after 1 week. If a website frequently updates their social media image, you will need to wait 1 week for the updated image to appear in the cover image.
 
