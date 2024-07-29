@@ -11,46 +11,35 @@ import PricingComparison from "@site/src/components/PricingComparison";
 
 ## License
 
-A license gives you **lifetime access** to premium Vault Explorer features. Purchasing a license is also a way to support the development of the plugin.
+A license gives you access to premium Vault Explorer features. Purchasing a license is also a way to support development of the plugin.
 
 <PricingComparison/>
 
-## License types
+## Key distribution
 
-Licenses can only be registered on a finite amounts of devices.
+When you purchase a license, you will receive an email with a license key within 24 hours.
 
-A device is considered any physical machine such as a desktop, laptop, tablet, or mobile phone. If you have multiple vaults on a machine, they will only be considered as 1 device.
+## Key usage
 
-There are 2 types of licenses: **Basic** and **Extended**
+Once a license key is activated, it is activated for all vaults on your device.
 
-### Basic License
+## Network requests
 
-The basic license can be used on up to 2 devices.
+No network requests are needed for key validation. Keys are validated through an offline algorithm.
 
-### Extended License
+## Key sharing
 
-The extended license can be up on up to 5 devices.
+Please do not share your license key with anyone. Shared license keys will be deactivated.
 
-## License key
+## Old keys
 
-When you purchase a license, you will receive an email with your license key within 24 hours. After receiving your license key, you will need to register your device with it.
+If you bought a license before version **1.36.0**, you will need to enter a new license key. You will be sent a new key by email. This is because the license system has been upgraded.
 
-<PremiumButton/>
-
-### Register your device
+## Activate your key
 
 1. Open the plugin settings by clicking the gear icon in the upper right corner
 2. Scroll down to the **Premium** section
 3. Find the **License key** setting
 4. Enter your license key received by email
 
-Congratulations! Your device is now registered to that license.
-
-### Unregister your device
-
-1. Open the plugin settings by clicking the gear icon in the upper right corner
-2. Scroll down to the **Premium** section
-3. Find the **License key** setting
-4. Click the **Unregister device** button
-
-When you unregister a device, you may use your license key on another device.
+Congratulations! Premium features are now enabled on your device
