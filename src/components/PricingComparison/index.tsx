@@ -2,82 +2,100 @@ import React from "react";
 import styles from "./styles.module.css";
 import clsx from "clsx";
 
-interface FeatureItem {
-	title: string;
-	available: string[];
-	url: string;
+enum LicenseType {
+	CASUAL,
+	LITE,
+	PLUS,
 }
 
 interface TierItem {
-	id: string;
+	id: LicenseType;
 	title: string;
 	description: string;
 	price: number;
+	priceDescription: string;
 	url?: string;
 }
 
-const FeatureList: FeatureItem[] = [
-	{
-		title: "Grid view",
-		available: ["casual", "basic", "extended"],
-		url: "/docs/views/grid",
-	},
-	{
-		title: "List view",
-		available: ["casual", "basic", "extended"],
-		url: "/docs/views/list",
-	},
-	{
-		title: "Feed view",
-		available: ["basic", "extended"],
-		url: "/docs/views/feed",
-	},
-	{
-		title: "Filter by property",
-		available: ["casual", "basic", "extended"],
-		url: "/docs/filters/custom-filter/#property",
-	},
-	{
-		title: "Filter by file name",
-		available: ["casual", "basic", "extended"],
-		url: "/docs/filters/custom-filter/#file-name",
-	},
-	{
-		title: "Filter by folder name",
-		available: ["casual", "basic", "extended"],
-		url: "/docs/filters/custom-filter/#folder-name",
-	},
-	{
-		title: "Filter by content",
-		available: ["basic", "extended"],
-		url: "/docs/filters/custom-filter/#content",
-	},
-];
+interface FeatureItem {
+	title: string;
+	available: LicenseType[];
+	url: string;
+}
 
 const TierList: TierItem[] = [
 	{
-		id: "casual",
-		title: "Casual",
+		id: LicenseType.CASUAL,
+		title: "Basic",
 		price: 0,
 		description: "For casual users",
+		priceDescription: "No license required",
 	},
 	{
-		id: "basic",
-		title: "Basic",
-		price: 15,
-		description: "For power users",
-		url: "https://ko-fi.com/s/a70932e3f4",
+		id: LicenseType.LITE,
+		title: "Lite",
+		description: "For users who prefer a flexible, month-to-month plan",
+		price: 4.99,
+		priceDescription: "Monthly subscription",
+		url: "https://ko-fi.com/summary/4d6664d3-b7f5-4163-b30f-c53949cee1ba",
 	},
 	{
-		id: "extended",
-		title: "Extended",
-		description: "For power users",
-		price: 20,
+		id: LicenseType.PLUS,
+		title: "Plus",
+		description:
+			"For users who want lifetime access without recurring fees. ",
+		priceDescription: "One time payment",
+		price: 25,
 		url: "https://ko-fi.com/s/d26f793688",
 	},
 ];
 
-function Tier({ id, title, description, price, url }: TierItem) {
+const FeatureList: FeatureItem[] = [
+	{
+		title: "Grid view",
+		available: [LicenseType.CASUAL, LicenseType.LITE, LicenseType.PLUS],
+		url: "/docs/views/grid",
+	},
+	{
+		title: "List view",
+		available: [LicenseType.CASUAL, LicenseType.LITE, LicenseType.PLUS],
+		url: "/docs/views/list",
+	},
+	{
+		title: "Feed view",
+		available: [LicenseType.LITE, LicenseType.PLUS],
+		url: "/docs/views/feed",
+	},
+	{
+		title: "Filter by property",
+		available: [LicenseType.CASUAL, LicenseType.LITE, LicenseType.PLUS],
+		url: "/docs/filters/custom-filter/#property",
+	},
+	{
+		title: "Filter by file name",
+		available: [LicenseType.CASUAL, LicenseType.LITE, LicenseType.PLUS],
+		url: "/docs/filters/custom-filter/#file-name",
+	},
+	{
+		title: "Filter by folder name",
+		available: [LicenseType.CASUAL, LicenseType.LITE, LicenseType.PLUS],
+		url: "/docs/filters/custom-filter/#folder-name",
+	},
+	{
+		title: "Filter by content",
+		available: [LicenseType.LITE, LicenseType.PLUS],
+		url: "/docs/filters/custom-filter/#content",
+	},
+];
+
+function Tier({
+	id,
+	title,
+	description,
+	priceDescription,
+	price,
+	url,
+}: TierItem) {
 	return (
 		<div className={styles.tierCard}>
 			<div className={styles.tierCard__title}>{title}</div>
@@ -86,7 +104,7 @@ function Tier({ id, title, description, price, url }: TierItem) {
 				{price !== 0 ? `$${price}` : "Free"}
 			</div>
 			<div className={styles.tierCard__priceDescription}>
-				{url !== undefined ? "One time payment" : "No license required"}
+				{priceDescription}
 			</div>
 			{url !== undefined ? (
 				<a

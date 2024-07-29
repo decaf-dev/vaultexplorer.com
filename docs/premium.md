@@ -7,7 +7,7 @@ title: Premium
 import PremiumButton from "@site/src/components/PremiumButton";
 import PricingComparison from "@site/src/components/PricingComparison";
 
-<span className="large-text">Premium features are available to users who purchase a Vault Explorer license.</span>
+<span className="large-text">Enable premium features by purchasing a Vault Explorer license.</span>
 
 ## License
 
