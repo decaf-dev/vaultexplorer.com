@@ -35,7 +35,7 @@ const TierList: TierItem[] = [
 		id: LicenseType.LITE,
 		title: "Lite",
 		description: "For users who prefer a flexible, month-to-month plan",
-		price: 4.99,
+		price: 3.99,
 		priceDescription: "Monthly subscription",
 		url: "https://ko-fi.com/summary/4d6664d3-b7f5-4163-b30f-c53949cee1ba",
 	},
@@ -45,7 +45,7 @@ const TierList: TierItem[] = [
 		description:
 			"For users who want lifetime access without recurring fees. ",
 		priceDescription: "One time payment",
-		price: 25,
+		price: 20,
 		url: "https://ko-fi.com/s/d26f793688",
 	},
 ];
