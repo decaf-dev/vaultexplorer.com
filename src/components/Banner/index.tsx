@@ -33,7 +33,7 @@ export default function Banner() {
 				<a href="https://github.com/decaf-dev/obsidian-vault-explorer/releases">
 					{packageJson.version}
 				</a>
-				<span> is available.</span>
+				<span> is now available.</span>
 				&nbsp;&nbsp;🎉&nbsp;&nbsp;
 				<span>Check out the updated documentation!</span>
 			</div>
