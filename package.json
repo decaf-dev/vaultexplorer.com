@@ -1,6 +1,6 @@
 {
 	"name": "vaultexplorer.com",
-	"version": "1.35.1",
+	"version": "1.36.3",
 	"private": true,
 	"scripts": {
 		"docusaurus": "docusaurus",
