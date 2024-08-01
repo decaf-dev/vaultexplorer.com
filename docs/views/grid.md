@@ -146,4 +146,4 @@ https://vaultexplorer.com/img/social-card.png
 
 Cached social media image URLs expire after 1 week.
 
-You may force an update to the social media image by [clearing](/docs/settings/#social-media-image) the image cache.
+You may force an update to the social media image by [clearing](/docs/settings/#social-media-image-cache) the social media image cache.
