@@ -103,13 +103,7 @@ Unimplemented views are disabled by default.
 
 ## Grid view
 
-### Automatic cover image detection
-
-TODO
-
-### Preferred cover image property
-
-TODO
+### Cover image sources
 
 ### Load social media image
 
@@ -165,6 +159,14 @@ The property used to mark a note as a favorite. This is used by the [favorite fi
 
 :::info
 The property dropdown only displays **checkbox** properties.
+:::
+
+### Image property
+
+The property used to store the image of a markdown file. This property is referred as the `Image property` in the [cover images sources setting](/docs/settings#cover-image-sources).
+
+:::info
+The property dropdown only displays **text** properties.
 :::
 
 ### URL property
@@ -225,7 +227,7 @@ When enabled, the plugin will automatically update time values every minute, ens
 
 ### License key
 
-A license key is used to activate [premium features](/docs/premium/) on a device. Once you use a license key for a vault, you will have premium features activated on any other vaults that you use on the same device.
+A license key is used to activate [premium features](/docs/premium/) on a device. Once you use a license key for a vault, premium features will be enabled on any other vaults that you use on the same device.
 
 :::info
 If you use Obsidian sync, you will need to enter your license key on each device
@@ -259,7 +261,7 @@ If you change this path you will need to restart Obsidian
 | ---------------- | -------------------------------------------------- |
 | `favorites.json` | Stores favorite information for non-markdown files |
 
-### Social media image
+### Social media image cache
 
 Social media images are stored in the IndexedDB of Electron. This cache is shared between all vaults.
 
