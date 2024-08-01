@@ -31,7 +31,7 @@ url: https://images.pexels.com/photos/15238854/pexels-photo-15238854/free-photo-
 
 ## Properties
 
-When you have a text property and 1 of the 3 [custom property](/docs/settings/#custom-properties) settings configured, a text property button will appear in the grid card.
+When you have a text property and one of the [custom property](/docs/settings/#custom-properties) settings configured, a text property button will appear in the grid card.
 
 When you click on a property, the search view will open and filter by that property.
 
