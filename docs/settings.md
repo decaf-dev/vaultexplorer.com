@@ -6,10 +6,6 @@ title: Settings
 
 ## General
 
-### Wrap filter groups
-
-When enabled, filter groups will be wrapped instead. This is only relevant when you resize the filter group container to be small enough that the horizontal scroll bar appears.
-
 ### File icons
 
 When enabled, files icons will be displayed next to file names.
@@ -73,6 +69,20 @@ The number of items to display per page.
 :::warning
 Increasing the page size will cause longer render times and potential lag
 :::
+
+### Load tags from body
+
+When enabled, tags will be loaded from the both the **tags** property and the body of a markdown note.
+
+When disabled, tags will only be loaded from the **tags** property.
+
+:::info
+The default value is **true**
+:::
+
+### Wrap filter groups
+
+When enabled, filter groups will be wrapped instead. This is only relevant when you resize the filter group container to be small enough that the horizontal scroll bar appears.
 
 <!-- ### Title wrapping
 
