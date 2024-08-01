@@ -68,8 +68,6 @@ Tags are displayed for a markdown file. When you click on a tag, the search view
 
 ## Cover image
 
-### Default
-
 By default, the grid card will display a gray background with a file icon as a placeholder.
 
 <Image src="views/img/image-placeholder.png" alt="Cover image placeholder" maxWidth="350px"/>
@@ -78,27 +76,35 @@ By default, the grid card will display a gray background with a file icon as a p
 
 If a vault file has an image extension, the file image will be displayed as the cover image.
 
-### Automatic image loading
+### Cover image sources
 
-If [automatic cover image detection](/docs/settings/#automatic-cover-image-detection) is enabled, the plugin will automatically load a cover image.
+The [cover image sources](/docs/settings#cover-image-sources) setting is used to configure cover image loading. The order of the sources determines how cover images are loaded.
 
-**Detection priority**
+Consider the default sources:
 
-| Name          | Priority | Area                 |
-| ------------- | -------- | -------------------- |
-| WikiLink      | 1        | Frontmatter and body |
-| Image URL     | 2        | Frontmatter only     |
-| Non-image URL | 3        | Frontmatter only     |
+<Image src="views/img/image-sources.png" maxWidth="900px"/>
 
-#### WikiLink
+For these sources the plugin will:
+
+1. Look for a **wiki link** or **URL** in the [image property](/docs/settings#image-property). If the property isn't configured, the property doesn't exist, or no link is found, then move on.
+2. Look for a **wiki link** or **URL** in the [URL property](/docs/settings#url-property). If the property isn't configured, the property doesn't exist, or no link is found, then move on.
+3. Look for a **wiki link** or **URL** in any other property in the frontmatter. If no other properties exist, or no link is found, then move on.
+4. Look for for first **internal embed** or **external embed** in the body. If no link exists, then move on.
+5. Display a default placeholder
+
+#### Cover image links
+
+Here are some examples of each type of link
+
+##### Wiki link
 
 ```markdown
 ---
-cover: [[seagull-bird-animal-nature-162992.jpeg]]
+image: [[seagull-bird-animal-nature-162992.jpeg]]
 ---
 ```
 
-#### Image URL
+##### URL
 
 ```markdown
 ---
@@ -106,7 +112,25 @@ url: https://images.pexels.com/photos/162292/seagull-bird-animal-nature-162292.j
 ---
 ```
 
-#### Non-image URL
+##### Internal embed
+
+```markdown
+![[seagull-bird-animal-nature-162992.jpeg]]
+```
+
+##### External embed
+
+```markdown
+![](https://images.pexels.com/photos/162292/seagull-bird-animal-nature-162292.jpeg?auto=compress&cs=tinysrgb&w=800)
+```
+
+### Social media image
+
+A non-image URL may have a _social media image_. This is a public image that repesents the link on social media sites.
+
+When the [load social media image](/docs/settings/#load-social-media-image) setting is enabled, the plugin will make a `GET` request to the image URL and look for a social media URL. If a URL is found, the image will be loaded and the URL will be cached for future access.
+
+Example non-image URL
 
 ```markdown
 ---
@@ -114,12 +138,12 @@ url: https://vaultexplorer.com
 ---
 ```
 
-### Social media image
+Example social media URL
 
-A non-image URL may have a _social media image_. This is a public image that repesents the website or article on social media sites. To find this URL, the plugin will preform a `GET` request to the URL and parse the social media URL. The social media image URL is stored in a cache for future access.
+```markdown
+https://vaultexplorer.com/img/social-card.png
+```
 
-You can disable this by toggling the [load social media image](/docs/settings/#load-social-media-image) setting.
-
-Cached social media image URLs expire after 1 week. If a website frequently updates their social media image, you will need to wait 1 week for the updated image to appear in the cover image.
+Cached social media image URLs expire after 1 week.
 
 You may force an update to the social media image by [clearing](/docs/settings/#social-media-image) the image cache.

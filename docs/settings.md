@@ -107,7 +107,7 @@ Unimplemented views are disabled by default.
 
 This setting allows you to configure the loading order of cover images. By default, the [image property](/docs/settings#image-property) and [url property](/docs/settings#url-property) are loaded first. You may change this order by dragging one row above another.
 
-To toggle a source, you may click the row.
+To enable or disable a source, you may click on a source to toggle it.
 
 ### Load social media image
 
@@ -167,7 +167,7 @@ The property dropdown only displays **checkbox** properties.
 
 ### Image property
 
-The property used to store the image of a markdown file. This property is referred as the `Image property` in the [cover images sources setting](/docs/settings#cover-image-sources).
+The property used to store the image of a markdown file. This property is referenced in the [cover images sources setting](/docs/settings#cover-image-sources).
 
 :::info
 The property dropdown only displays **text** properties.
