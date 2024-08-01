@@ -66,6 +66,11 @@ Tags are displayed for a markdown file. When you click on a tag, the search view
 
 <Image src="views/img/search-tag.png" maxWidth="250px"/>
 
+<br/>
+<br/>
+
+By default, tags are loaded from both the **tags** property and the body of a markdown note. To display tags only from the tags property, you may disable the [load tags from body](/docs/settings#load-tags-from-body) setting.
+
 ## Cover image
 
 By default, the grid card will display a gray background with a file icon as a placeholder.
@@ -90,7 +95,7 @@ For these sources the plugin will:
 2. Look for a **wiki link** or **URL** in the [URL property](/docs/settings#url-property). If the property isn't configured, the property doesn't exist, or no link is found, then move on.
 3. Look for a **wiki link** or **URL** in any other property in the frontmatter. If no other properties exist, or no link is found, then move on.
 4. Look for for first **internal embed** or **external embed** in the body. If no link exists, then move on.
-5. Display a default placeholder
+5. Display the placeholder
 
 #### Cover image links
 
