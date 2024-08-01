@@ -105,6 +105,10 @@ Unimplemented views are disabled by default.
 
 ### Cover image sources
 
+This setting allows you to configure the loading order of cover images. By default, the [image property](/docs/settings#image-property) and [url property](/docs/settings#url-property) are loaded first. You may change this order by dragging one row above another.
+
+To toggle a source, you may click the row.
+
 ### Load social media image
 
 When this setting is enabled, social media images will be loaded.
@@ -215,7 +219,11 @@ The property dropdown only displays **date** or **datetime** properties.
 
 ## Custom Properties
 
-TODO
+You may configure up to 3 custom properties. When in the grid view, each configured property will display on a grid card.
+
+:::info
+The property dropdown only displays **text** properties.
+:::
 
 ## Updates
 
