@@ -55,6 +55,16 @@ Vault Explorer uses the [Lucide icons](https://lucide.dev) used by Obsidian.
 | `pdf`          | `file-text`        |
 | `txt`          | `file-text`        |
 
+### Load tags from body
+
+When enabled, tags will be loaded from the both the **tags** property and the body of a markdown note.
+
+When disabled, tags will only be loaded from the **tags** property.
+
+:::info
+The default value is **true**
+:::
+
 ### Page size
 
 The number of items to display per page.
@@ -68,16 +78,6 @@ The number of items to display per page.
 
 :::warning
 Increasing the page size will cause longer render times and potential lag
-:::
-
-### Load tags from body
-
-When enabled, tags will be loaded from the both the **tags** property and the body of a markdown note.
-
-When disabled, tags will only be loaded from the **tags** property.
-
-:::info
-The default value is **true**
 :::
 
 ### Wrap filter groups
