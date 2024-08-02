@@ -5,7 +5,7 @@ import { isVersionLessThan } from "./utils";
 
 const BANNER_KEY = "version";
 
-export default function Banner() {
+export default function UpdateBanner() {
 	const [isOpen, setIsOpen] = React.useState(false);
 
 	React.useLayoutEffect(() => {
