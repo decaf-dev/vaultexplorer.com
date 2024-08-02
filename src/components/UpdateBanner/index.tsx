@@ -34,8 +34,8 @@ export default function UpdateBanner() {
 					{packageJson.version}
 				</a>
 				<span> is now available.</span>
-				&nbsp;&nbsp;🎉&nbsp;&nbsp;
-				<span>Check out the updated documentation!</span>
+				&nbsp;🎉&nbsp;
+				<span>Check out the updated documentation.</span>
 			</div>
 			<button
 				className={styles.closeButton}
