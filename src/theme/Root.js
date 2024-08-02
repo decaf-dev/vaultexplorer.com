@@ -25,7 +25,7 @@ export default function Root({ children }) {
 			<ScrollToHashElement />
 			<Banner />
 			{children}
-			<FeedbackModal />
+			{/* <FeedbackModal /> */}
 		</>
 	);
 }
