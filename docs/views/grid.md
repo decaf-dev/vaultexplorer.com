@@ -99,9 +99,7 @@ For these sources the plugin will:
 
 #### Cover image links
 
-Here are some examples of each type of link
-
-##### Wiki link
+**Example wiki link**
 
 ```markdown
 ---
@@ -109,7 +107,7 @@ image: [[seagull-bird-animal-nature-162992.jpeg]]
 ---
 ```
 
-##### URL
+**Example URL**
 
 ```markdown
 ---
@@ -117,13 +115,13 @@ url: https://images.pexels.com/photos/162292/seagull-bird-animal-nature-162292.j
 ---
 ```
 
-##### Internal embed
+**Example internal embed**
 
 ```markdown
 ![[seagull-bird-animal-nature-162992.jpeg]]
 ```
 
-##### External embed
+**Example external embed**
 
 ```markdown
 ![](https://images.pexels.com/photos/162292/seagull-bird-animal-nature-162292.jpeg?auto=compress&cs=tinysrgb&w=800)
@@ -135,7 +133,7 @@ A non-image URL may have a _social media image_. This is a public image that rep
 
 When the [load social media image](/docs/settings/#load-social-media-image) setting is enabled, the plugin will make a `GET` request to the image URL and look for a social media URL. If a URL is found, the image will be loaded and the URL will be cached for future access.
 
-Example non-image URL
+**Example non-image URL**
 
 ```markdown
 ---
@@ -143,7 +141,7 @@ url: https://vaultexplorer.com
 ---
 ```
 
-Example social media URL
+**Example social media URL**
 
 ```markdown
 https://vaultexplorer.com/img/social-card.png
