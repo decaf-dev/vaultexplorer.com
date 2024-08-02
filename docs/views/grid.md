@@ -97,8 +97,6 @@ For these sources the plugin will:
 4. Look for for first **internal embed** or **external embed** in the body. If no link exists, then move on.
 5. Display the placeholder
 
-#### Cover image links
-
 **Example wiki link**
 
 ```markdown
