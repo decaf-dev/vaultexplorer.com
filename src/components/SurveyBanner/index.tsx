@@ -27,7 +27,12 @@ export default function SurveyBanner() {
 			<div>
 				We are looking for feedback. The first 5 participants will get a
 				free premium license. Click&nbsp;
-				<a href="https://forms.gle/aUUEKofz5uE26xaN7">here</a>
+				<a
+					href="https://forms.gle/aUUEKofz5uE26xaN7"
+					data-umami-event="Feedback survey button"
+				>
+					here
+				</a>
 				<span> for more information.</span>
 			</div>
 			<button

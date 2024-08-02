@@ -30,7 +30,10 @@ export default function UpdateBanner() {
 	return (
 		<div className={styles.banner}>
 			<div>
-				<a href="https://github.com/decaf-dev/obsidian-vault-explorer/releases">
+				<a
+					href="https://github.com/decaf-dev/obsidian-vault-explorer/releases"
+					data-umami-event="Releases link"
+				>
 					{packageJson.version}
 				</a>
 				<span> is now available.</span>
