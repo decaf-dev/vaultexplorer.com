@@ -4,4 +4,8 @@ sidebar_position: 3
 title: Table
 ---
 
-## TODO
+import Image from "@site/src/components/Image";
+
+The table view displays vault files as rows in a table.
+
+<Image src="views/img/table-view.png"/>
