@@ -31,21 +31,22 @@ const TierList: TierItem[] = [
 		description: "For casual users",
 		priceDescription: "No license required",
 	},
-	{
-		id: LicenseType.LITE,
-		title: "Lite",
-		description: "For users who prefer a flexible, month-to-month plan",
-		price: 3.99,
-		priceDescription: "Monthly subscription",
-		url: "https://ko-fi.com/summary/4d6664d3-b7f5-4163-b30f-c53949cee1ba",
-	},
+	// {
+	// 	id: LicenseType.LITE,
+	// 	title: "Lite",
+	// 	description: "For users who prefer a flexible, month-to-month plan",
+	// 	price: 3.99,
+	// 	priceDescription: "Monthly subscription",
+	// 	url: "https://ko-fi.com/summary/4d6664d3-b7f5-4163-b30f-c53949cee1ba",
+	// },
 	{
 		id: LicenseType.PLUS,
 		title: "Plus",
-		description:
-			"For users who want lifetime access without recurring fees. ",
+		// description:
+		// 	"For users who want lifetime access without recurring fees. ",
+		description: "Enjoy lifetime access to premium features",
 		priceDescription: "One time payment",
-		price: 20,
+		price: 19,
 		url: "https://ko-fi.com/s/d26f793688",
 	},
 ];
