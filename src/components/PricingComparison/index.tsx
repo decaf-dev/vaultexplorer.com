@@ -44,7 +44,7 @@ const TierList: TierItem[] = [
 		title: "Plus",
 		// description:
 		// 	"For users who want lifetime access without recurring fees. ",
-		description: "Enjoy lifetime access to premium features",
+		description: "For users who want lifetime access to premium features",
 		priceDescription: "One time payment",
 		price: 19,
 		url: "https://ko-fi.com/s/d26f793688",
