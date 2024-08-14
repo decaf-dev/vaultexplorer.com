@@ -24,7 +24,7 @@ export default function Root({ children }) {
 		<>
 			<ScrollToHashElement />
 			<UpdateBanner />
-			<SurveyBanner />
+			{/* <SurveyBanner /> */}
 			{children}
 			{/* <FeedbackModal /> */}
 		</>
