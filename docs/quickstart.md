@@ -192,4 +192,3 @@ Congratulations! You have just learned the basics of using the Vault Explorer pl
 
 -   Learn about the [grid view](/docs/views/grid)
 -   Learn about [filter rule types](/docs/filters/custom-filter/#filter-rule-types)
--   Learn about [Premium](/docs/premium/)

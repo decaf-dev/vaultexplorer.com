@@ -6,8 +6,6 @@ title: Filter by all tags
 
 This guide will help you set up filtering for tags in the frontmatter or the body of your markdown notes.
 
-This guide assumes that you have activated [premium features](/docs/premium/) for your vault.
-
 ## Create a property rule
 
 1. Add a filter group

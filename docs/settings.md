@@ -241,16 +241,6 @@ The property dropdown only displays **text** properties.
 
 When enabled, the plugin will automatically update time values every minute, ensuring that the timestamp filter uses the most current time values. This will cause the Vault Explorer view to refresh every minute.
 
-## Premium
-
-### License key
-
-A license key is used to activate [premium features](/docs/premium/) on a device. Once you use a license key for a vault, premium features will be enabled on any other vaults that you use on the same device.
-
-:::info
-If you use Obsidian sync, you will need to enter your license key on each device
-:::
-
 ## Debugging
 
 ### Log level

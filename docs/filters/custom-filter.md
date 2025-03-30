@@ -193,8 +193,6 @@ This rule only applies to markdown files and will not affect any other types of 
 
 This rule can be used to filter by tags that appear in the body of a markdown note instead of the frontmatter.
 
-This is a [premium feature](/docs/premium/).
-
 | Name        | Description          |
 | ----------- | -------------------- |
 | `condition` | The filter condition |
